@@ -23,10 +23,10 @@ MERC_R = 6378137.0
 KN_TO_MPS = 0.5144
 COLORS = ["#253746", "#B5533C", "#2C6E9B", "#3F7E6E", "#8B6B9F"]
 plt.rcParams.update({
-    "font.family": "Times New Roman", "font.size": 10,
-    "axes.labelsize": 10, "axes.titlesize": 11,
-    "axes.linewidth": 0.7, "xtick.labelsize": 9, "ytick.labelsize": 9,
-    "legend.fontsize": 9, "pdf.fonttype": 42, "ps.fonttype": 42,
+    "font.family": "Times New Roman", "font.size": 9,
+    "axes.labelsize": 9, "axes.titlesize": 10,
+    "axes.linewidth": 0.7, "xtick.labelsize": 8, "ytick.labelsize": 8,
+    "legend.fontsize": 8, "pdf.fonttype": 42, "ps.fonttype": 42,
     "axes.spines.top": False, "axes.spines.right": False,
     "savefig.facecolor": "white",
 })
@@ -77,8 +77,8 @@ def case_data(folder):
 
 
 def save_figure(fig, name):
-    fig.savefig(OUTPUT / f"{name}.png", dpi=300, bbox_inches="tight")
-    fig.savefig(OUTPUT / f"{name}.pdf", bbox_inches="tight")
+    fig.savefig(OUTPUT / f"{name}.png", dpi=300)
+    fig.savefig(OUTPUT / f"{name}.pdf")
     plt.close(fig)
 
 
@@ -143,7 +143,8 @@ def main():
     metrics.append(report_metrics("nominal", nominal_states, nominal_s, nominal_x, nominal_y, nominal_n))
     (OUTPUT / "diagnostic_metrics.json").write_text(json.dumps(metrics, indent=2), encoding="utf-8")
 
-    fig, axes = plt.subplots(3, 1, figsize=(8.0, 7.2), sharex=True, layout="constrained")
+    figure_width = 164.6 * 0.98 / 25.4
+    fig, axes = plt.subplots(3, 1, figsize=(figure_width, figure_width * 0.9), sharex=True, layout="constrained")
     bend_cases = [
         ("nominal", "Nominal, command 94.5", COLORS[0], "--"),
         ("derivative_g4_seed7_q94_5", "Seed 7, command 94.5", COLORS[1], "-"),
@@ -155,20 +156,22 @@ def main():
         select = (s >= 33500) & (s <= 39000)
         for axis, values in zip(axes, [states["xte_m"], states["rudder_deg"], states["stw_kn"] * KN_TO_MPS]):
             axis.plot(s[select] / 1000, values[select], color=color, linestyle=linestyle, linewidth=1.2, label=label)
-    for axis, title, ylabel in zip(axes, ["(a) True cross-track error", "(b) Rudder demand", "(c) Water-relative speed"], ["Cross-track error (m)", "Rudder angle (deg)", "Water speed (m/s)"]):
+    for axis, title, ylabel in zip(axes, ["(a) True cross-track error", "(b) Recorded rudder angle", "(c) Water-relative speed"], ["Cross-track error (m)", "Rudder angle (deg)", "Water speed (m/s)"]):
         axis.axvspan(35.3, 37.4, color="#E8ECEF", zorder=-1)
         axis.set_title(title, loc="left", fontweight="normal")
         axis.set_ylabel(ylabel)
         axis.grid(axis="y", color="#DEE3E7", linewidth=0.5)
         axis.set_xlim(33.5, 39)
-    axes[0].legend(loc="upper left", ncol=2, frameon=False)
+    handles, labels = axes[0].get_legend_handles_labels()
+    fig.get_layout_engine().set(rect=(0, 0, 1, 0.90))
+    fig.legend(handles, labels, loc="upper center", ncol=2, frameon=False)
     for bound in [-35, 35]:
         axes[1].axhline(bound, color="#7B8794", linestyle=":", linewidth=0.8)
     axes[1].set_ylim(-40, 40)
     axes[2].set_xlabel("Route chainage (km)")
     save_figure(fig, "seed7_acute_bend")
 
-    fig, axes = plt.subplots(3, 1, figsize=(8.0, 7.2), sharex=True, layout="constrained")
+    fig, axes = plt.subplots(3, 1, figsize=(figure_width, figure_width * 0.9), sharex=True, layout="constrained")
     comparisons = [
         [("prior_gain070", "Current magnitude -30%", COLORS[1]), ("prior_gain130", "Current magnitude +30%", COLORS[2])],
         [("prior_bias_p15", "Direction bias +15 deg", COLORS[1]), ("prior_bias_m15", "Direction bias -15 deg", COLORS[2])],

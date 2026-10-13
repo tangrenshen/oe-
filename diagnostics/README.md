@@ -2,6 +2,8 @@
 
 The charts and metrics are derived from the fifteen representative reruns and the nominal G4 steady run. `scripts/analyse_representative_runs.py` regenerates these outputs with NumPy, SciPy, and Matplotlib; Python 3.11 or later is required by the companion rerun runner. No chart database or model execution is needed to analyse the supplied records.
 
+Typography matches the manuscript figures at their intended inclusion width: Times New Roman; axis labels 9 pt, tick labels and legends 8 pt, panel titles 10 pt, and normal font weight. The PDF width is 161.3 mm. This formatting update does not change simulation records or calculated metrics.
+
 `seed7_acute_bend.png` and its PDF compare the nominal model with the same derivative-seed-7 perturbation at propulsion commands 94.5, 100, and 105. The shaded region is fixed planned-route chainage 35.3–37.4 km. The panels show true cross-track error, recorded rudder angle, and water-relative speed. Command settings are the software's legacy interface values, not actual shaft rpm.
 
 `current_prior_comparison.png` and its PDF compare magnitude errors of ±30%, direction biases of ±15 degrees, a 60 s spatial-prior lag, and combined prior and measurement errors. The hydrodynamic field is unchanged; the current supplied to the controller is perturbed.
