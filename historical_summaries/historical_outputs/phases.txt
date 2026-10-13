@@ -1,0 +1,19 @@
+g0 ph0   exit=0  rms_xte_m=40.09
+g0 ph90  exit=0  rms_xte_m=33.24
+g0 ph180 exit=0  rms_xte_m=53.25
+g0 ph270 exit=0  rms_xte_m=59.07
+g1 ph0   exit=0  rms_xte_m=15.68
+g1 ph90  exit=0  rms_xte_m=12.20
+g1 ph180 exit=0  rms_xte_m=27.30
+g1 ph270 exit=0  rms_xte_m=31.53
+g2 ph0   exit=0  rms_xte_m=40.07
+g2 ph90  exit=0  rms_xte_m=33.17
+g2 ph180 exit=0  rms_xte_m=53.26
+g2 ph270 exit=0  rms_xte_m=58.99
+g3 ph0   exit=0  rms_xte_m=2.36
+g3 ph90  exit=0  rms_xte_m=2.38
+g3 ph180 exit=0  rms_xte_m=2.31
+g3 ph270 exit=0  rms_xte_m=1.99
+全部完成
+
+[exited with code 0]

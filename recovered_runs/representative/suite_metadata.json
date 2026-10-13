@@ -1,0 +1,12 @@
+{
+  "started_at": "2026-10-13T18:45:18+08:00",
+  "executable": "E:\\Desk\\department\\shuziluansheng\\shuziluansheng\\xjp\\daima\\release\\xjp_release.exe",
+  "executable_sha256": "a9326908b487a2af9d9e994d3346a0a63788d64b8fefcf642aeb34587143f2e2",
+  "private_chart_input": "E:\\Desk\\department\\shuziluansheng\\shuziluansheng\\xjp\\daima\\Yangtze_Mile235_270.db",
+  "chart_sha256": "ea4103eb1c8af05a648431f693c59f40e286b31086cf2159a2ccd7f7ed593a3f",
+  "workers": 4,
+  "case_count": 15,
+  "control_step_s": 0.1,
+  "state_force_and_summary_sampling_s": 0.5,
+  "note": "Summary statistics are accumulated once per onTimerTick (five 0.1 s steps)."
+}

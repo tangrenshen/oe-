@@ -1,0 +1,139 @@
+[
+  {
+    "category": "steady",
+    "tool_id": "toolu_01Q8GmEhQr1KokgmvjeCxS98",
+    "result_timestamp": "2026-09-17T02:19:59.471Z",
+    "transcript_line": 3072,
+    "is_error": false,
+    "stored_tool_result": "g0 exit=0\ngroup=0 suffix=Group1_Baseline arrived=1 sim_time_s=9765.0 max_abs_xte_m=105.85 rms_xte_m=46.14 sum_abs_rudder_change_deg=14416.3 shallow_water=1 backwater_beta=0.000 backwater_celerity_mps=12.00 backwater_period_s=44712 backwater_phase_deg=0.0 kp=8.000 ti=50.000 td=2.000 kff=3.000e-06\r\ng1 exit=0\ngroup=1 suffix=Group2_ConvILOS arrived=1 sim_time_s=9862.5 max_abs_xte_m=67.58 rms_xte_m=20.68 sum_abs_rudder_change_deg=14703.5 shallow_water=1 backwater_beta=0.000 backwater_celerity_mps=12.00 backwater_period_s=44712 backwater_phase_deg=0.0 kp=8.000 ti=50.000 td=2.000 kff=3.000e-06\r\ng2 exit=0\ngroup=2 suffix=Group3_Feedforward arrived=1 sim_time_s=9764.0 max_abs_xte_m=106.60 rms_xte_m=46.18 sum_abs_rudder_change_deg=9347.9 shallow_water=1 backwater_beta=0.000 backwater_celerity_mps=12.00 backwater_period_s=44712 backwater_phase_deg=0.0 kp=8.000 ti=50.000 td=2.000 kff=3.000e-06\r\ng3 exit=0\ngroup=3 suffix=Group4_Proposed arrived=1 sim_time_s=10763.5 max_abs_xte_m=15.48 rms_xte_m=2.29 sum_abs_rudder_change_deg=10407.0 shallow_water=1 backwater_beta=0.000 backwater_celerity_mps=12.00 backwater_period_s=44712 backwater_phase_deg=0.0 kp=8.000 ti=50.000 td=2.000 kff=3.000e-06\r\n\n[exited with code 0]",
+    "tool_name": "Bash",
+    "historical_input": {
+      "command": "cat \"C:/Users/19259/AppData/Local/Temp/claude/C--Users-shuziluansheng-xjp-daima/951e880a-cbb0-4f69-a8fe-11ea5f8ef245/tasks/b113okl09.output\"",
+      "description": "Read four-group batch results"
+    },
+    "call_timestamp": "2026-09-17T02:19:59.180Z",
+    "stored_tool_result_sha256": "86f64da86d58e6f57c50b08cecfb78fed7dc8ed2865f9c2f42d9c05d53a947f9"
+  },
+  {
+    "category": "phases",
+    "tool_id": "toolu_01Mp2aw8W8UkCFWYrjwZwMGX",
+    "result_timestamp": "2026-09-17T03:21:01.023Z",
+    "transcript_line": 3239,
+    "is_error": false,
+    "stored_tool_result": "g0 ph0   exit=0  rms_xte_m=40.09\ng0 ph90  exit=0  rms_xte_m=33.24\ng0 ph180 exit=0  rms_xte_m=53.25\ng0 ph270 exit=0  rms_xte_m=59.07\ng1 ph0   exit=0  rms_xte_m=15.68\ng1 ph90  exit=0  rms_xte_m=12.20\ng1 ph180 exit=0  rms_xte_m=27.30\ng1 ph270 exit=0  rms_xte_m=31.53\ng2 ph0   exit=0  rms_xte_m=40.07\ng2 ph90  exit=0  rms_xte_m=33.17\ng2 ph180 exit=0  rms_xte_m=53.26\ng2 ph270 exit=0  rms_xte_m=58.99\ng3 ph0   exit=0  rms_xte_m=2.36\ng3 ph90  exit=0  rms_xte_m=2.38\ng3 ph180 exit=0  rms_xte_m=2.31\ng3 ph270 exit=0  rms_xte_m=1.99\n全部完成\n\n[exited with code 0]",
+    "tool_name": "Bash",
+    "historical_input": {
+      "command": "cat \"C:/Users/19259/AppData/Local/Temp/claude/C--Users-shuziluansheng-xjp-daima/951e880a-cbb0-4f69-a8fe-11ea5f8ef245/tasks/bqe8pait4.output\"",
+      "description": "Read phase batch results"
+    },
+    "call_timestamp": "2026-09-17T03:21:00.694Z",
+    "stored_tool_result_sha256": "704876b01d24d94520f18944cdc4017a2fde26e8b59b5c0b944462b0070aa7e9"
+  },
+  {
+    "category": "prior_initial",
+    "tool_id": "toolu_012vukJSt8Ljmb22Q3TM2AFU",
+    "result_timestamp": "2026-09-17T03:48:58.249Z",
+    "transcript_line": 3265,
+    "is_error": false,
+    "stored_tool_result": "perfect      max_abs_xte_m=15.48 rms_xte_m=2.29\ngain070      max_abs_xte_m=27.76 rms_xte_m=12.49\ngain130      max_abs_xte_m=30.12 rms_xte_m=11.96\nbias_p15     max_abs_xte_m=36.35 rms_xte_m=16.53\nbias_m15     max_abs_xte_m=32.43 rms_xte_m=17.11\nlag60        max_abs_xte_m=26.81 rms_xte_m=5.23\nnoise2       max_abs_xte_m=12.91 rms_xte_m=2.67\nallbad       max_abs_xte_m=53.12 rms_xte_m=16.88\ng0_noise2    max_abs_xte_m=105.85 rms_xte_m=46.14\ng1_noise2    max_abs_xte_m=67.60 rms_xte_m=20.68\ng2_noise2    max_abs_xte_m=106.60 rms_xte_m=46.18\n退化实验完成\n\n[exited with code 0]",
+    "tool_name": "Bash",
+    "historical_input": {
+      "command": "cat \"C:/Users/19259/AppData/Local/Temp/claude/C--Users-shuziluansheng-xjp-daima/951e880a-cbb0-4f69-a8fe-11ea5f8ef245/tasks/bm6t5he9e.output\"",
+      "description": "Read degradation sweep results"
+    },
+    "call_timestamp": "2026-09-17T03:48:57.923Z",
+    "stored_tool_result_sha256": "716e84069704e3e4a1f224f444e95732c8133a5b15ddda9debb5f0e6d0fc48b4"
+  },
+  {
+    "category": "fair_noise",
+    "tool_id": "toolu_01LFRkdNJRxZPX7Y1NMHfcVS",
+    "result_timestamp": "2026-09-17T04:21:28.293Z",
+    "transcript_line": 3299,
+    "is_error": false,
+    "stored_tool_result": "g0 clean   max_abs_xte_m=105.85 rms_xte_m=46.14\ng0 noise2  max_abs_xte_m=106.99 rms_xte_m=46.70\ng1 clean   max_abs_xte_m=67.58 rms_xte_m=20.68\ng1 noise2  max_abs_xte_m=68.66 rms_xte_m=21.29\ng2 clean   max_abs_xte_m=106.60 rms_xte_m=46.18\ng2 noise2  max_abs_xte_m=107.27 rms_xte_m=46.69\ng3 clean   max_abs_xte_m=15.48 rms_xte_m=2.29\ng3 noise2  max_abs_xte_m=12.91 rms_xte_m=2.67\n--- 组4 多种子噪声 ---\nseed1   max_abs_xte_m=12.91 rms_xte_m=2.67\nseed2   max_abs_xte_m=19.11 rms_xte_m=2.96\nseed3   max_abs_xte_m=12.41 rms_xte_m=2.58\nseed4   max_abs_xte_m=16.38 rms_xte_m=2.56\nseed5   max_abs_xte_m=15.67 rms_xte_m=2.98\n完成\n\n[exited with code 0]",
+    "tool_name": "Bash",
+    "historical_input": {
+      "command": "cat \"C:/Users/19259/AppData/Local/Temp/claude/C--Users-shuziluansheng-xjp-daima/951e880a-cbb0-4f69-a8fe-11ea5f8ef245/tasks/bhfcnk2r8.output\"",
+      "description": "Read fair noise comparison results"
+    },
+    "call_timestamp": "2026-09-17T04:21:27.993Z",
+    "stored_tool_result_sha256": "8fb9d342c2773158dd8d802e11bafed116f6d081ceb489ad2ff172b716f32f8d"
+  },
+  {
+    "category": "gain_sweep",
+    "tool_id": "toolu_01WSQa2RSEnew48YGL2cyr5K",
+    "result_timestamp": "2026-09-17T04:49:39.615Z",
+    "transcript_line": 3430,
+    "is_error": false,
+    "stored_tool_result": "g0 kp8   rms_xte_m=46.11 sum_abs_rudder_change_deg=9178.9\ng0 kp15  rms_xte_m=46.14 sum_abs_rudder_change_deg=14413.0\ng0 kp25  rms_xte_m=46.21 sum_abs_rudder_change_deg=20542.3\ng1 kp8   rms_xte_m=20.53 sum_abs_rudder_change_deg=9679.6\ng1 kp15  rms_xte_m=20.68 sum_abs_rudder_change_deg=14702.6\ng1 kp25  rms_xte_m=20.73 sum_abs_rudder_change_deg=20817.1\ng2 kp8   rms_xte_m=46.18 sum_abs_rudder_change_deg=9347.9\ng2 kp15  rms_xte_m=45.94 sum_abs_rudder_change_deg=14514.7\ng2 kp25  rms_xte_m=45.88 sum_abs_rudder_change_deg=20425.7\n完成\n\n[exited with code 0]",
+    "tool_name": "Bash",
+    "historical_input": {
+      "command": "cat \"C:/Users/19259/AppData/Local/Temp/claude/C--Users-shuziluansheng-xjp-daima/951e880a-cbb0-4f69-a8fe-11ea5f8ef245/tasks/bsi0vk8f0.output\"",
+      "description": "Read gain sweep results"
+    },
+    "call_timestamp": "2026-09-17T04:49:39.299Z",
+    "stored_tool_result_sha256": "a3bd5d511f2117bc836fe27484716dda94c21cb5eb960aef0e257566c2999080"
+  },
+  {
+    "category": "command_alignment",
+    "tool_id": "toolu_01QTAnSxHbSEEiJ72RHgD2Hw",
+    "result_timestamp": "2026-09-17T05:50:35.320Z",
+    "transcript_line": 3479,
+    "is_error": false,
+    "stored_tool_result": "组4 @100rpm  sim_time_s=10008.0 max_abs_xte_m=16.41 rms_xte_m=2.31 sum_abs_rudder_change_deg=9932.0\n组1 @94.5rpm  sim_time_s=10464.0 max_abs_xte_m=109.83 rms_xte_m=48.40\n组2 @94.5rpm  sim_time_s=10588.5 max_abs_xte_m=71.97 rms_xte_m=22.51\n组3 @94.5rpm  sim_time_s=10461.5 max_abs_xte_m=110.77 rms_xte_m=48.46\n完成\n\n[exited with code 0]",
+    "tool_name": "Bash",
+    "historical_input": {
+      "command": "cat \"C:/Users/19259/AppData/Local/Temp/claude/C--Users-shuziluansheng-xjp-daima/951e880a-cbb0-4f69-a8fe-11ea5f8ef245/tasks/bbwroqiwr.output\"",
+      "description": "Read speed-matched comparison results"
+    },
+    "call_timestamp": "2026-09-17T05:50:35.000Z",
+    "stored_tool_result_sha256": "c73fa135dc40ba0d107fa743e77258fc46e0cbb3550de9ebda6aa4d40d67dae1"
+  },
+  {
+    "category": "cell_refinement",
+    "tool_id": "toolu_011uXAemUQhBynahrkP8G9ia",
+    "result_timestamp": "2026-09-18T04:39:31.985Z",
+    "transcript_line": 6630,
+    "is_error": false,
+    "stored_tool_result": "ok\r\n=== 纵向等分数对全程跟踪指标的影响（定常流场，其余设置不变）===\r\n等分     单元长      第 3 组（固定前视 + FSI 前馈）         第 4 组（本文方法）                 \r\n4x2    40 m     46.18 / 106.60 / 9348        2.29 / 15.48 / 10407        \r\n8x2    20 m     46.14 / 106.51 / 9444        2.30 / 15.42 / 10460        \r\n16x2   10 m     46.05 / 106.39 / 9404        2.30 / 15.38 / 10495        \r\n32x2   5 m      45.87 / 106.12 / 9444        2.30 / 15.23 / 10479        \r\n\r\n相对 4x2 的变化（均方根偏差）:\r\n  8x2  第 3 组: -0.040 m (-0.09%)\r\n  8x2  第 4 组: +0.010 m (+0.44%)\r\n  16x2  第 3 组: -0.130 m (-0.28%)\r\n  16x2  第 4 组: +0.010 m (+0.44%)\r\n  32x2  第 3 组: -0.310 m (-0.67%)\r\n  32x2  第 4 组: +0.010 m (+0.44%)\r\n\r\n已写出 fsi_conv.json（4 个等分数）",
+    "tool_name": "Bash",
+    "historical_input": {
+      "command": "cd \"C:/Users/19259/AppData/Local/Temp/claude/C--Users-shuziluansheng-xjp-daima/951e880a-cbb0-4f69-a8fe-11ea5f8ef245/scratchpad\" && python - <<'PY'\nimport io, sys\nsys.stdout.reconfigure(encoding=\"utf-8\")\np = \"fsi_collect.py\"; s = io.open(p, encoding=\"utf-8\").read()\nold = 'rec = {}\\nfor path in sorted(glob.glob(ROOT + \"/*/Summary_*.txt\")):\\n    txt = io.open(path, encoding=\"utf-8\", errors=\"replace\").read()\\n'\nassert s.count(old) == 1\nnew = ('rec = {}\\n'\n       '# 权威数据源：批处理标准输出的汇总（Summary 文件曾因临时 QTextStream 写空）\\n'\n       'SOURCES = [\"fsi_convergence.txt\"] + sorted(glob.glob(ROOT + \"/*/Summary_*.txt\"))\\n'\n       'for path in SOURCES:\\n'\n       '    if not glob.glob(path):\\n'\n       '        continue\\n'\n       '    for txt in io.open(path, encoding=\"utf-8\", errors=\"replace\").read().split(\"group=\"):\\n'\n       '        txt = \"group=\" + txt\\n')\ns = s.replace(old, new)\n# 缩进后续块\nold2 = '''    m = re.search(r\"group=(\\\\d+).*?sim_time_s=([\\\\d.]+).*?max_abs_xte_m=([\\\\d.-]+)\"\n                  r\".*?rms_xte_m=([\\\\d.-]+).*?sum_abs_rudder_change_deg=([\\\\d.-]+)\"\n                  r\".*?fsi_split=(\\\\d+)x2\", txt, re.S)\n    if not m:\n        print(\"跳过（摘要为空或格式不符）:\", path)\n        continue\n    g, t, mx, rms, rud, n = int(m.group(1)), *map(float, m.group(2, 3, 4, 5)), int(m.group(6))\n    rec[(g, n)] = dict(t=t, max=mx, rms=rms, rud=rud)'''\nnew2 = '''        m = re.search(r\"group=(\\\\d+).*?sim_time_s=([\\\\d.]+).*?max_abs_xte_m=([\\\\d.-]+)\"\n                      r\".*?rms_xte_m=([\\\\d.-]+).*?sum_abs_rudder_change_deg=([\\\\d.-]+)\"\n                      r\".*?fsi_split=(\\\\d+)x2\", txt, re.S)\n        if not m:\n            continue\n        g, t, mx, rms, rud, n = int(m.group(1)), *map(float, m.group(2, 3, 4, 5)), int(m.group(6))\n        rec.setdefault((g, n), dict(t=t, max=mx, rms=rms, rud=rud))'''\nassert s.count(old2) == 1\ns = s.replace(old2, new2)\nio.open(p, \"w\", encoding=\"utf-8\", newline=\"\").write(s)\nprint(\"ok\")\nPY\npython fsi_collect.py",
+      "description": "Use the captured stdout as the data source",
+      "timeout": 300000
+    },
+    "call_timestamp": "2026-09-18T04:39:27.984Z",
+    "stored_tool_result_sha256": "66697160896ae7638f7cf8639ca79b8b8a3db59a393eaa2bdda1dec0b62116fe"
+  },
+  {
+    "category": "derivative_samples",
+    "tool_id": "toolu_011o6s9rP73NjU6UX1uJ6UxV",
+    "result_timestamp": "2026-09-18T09:08:01.971Z",
+    "transcript_line": 7096,
+    "is_error": false,
+    "stored_tool_result": "种子  本文方法 rms / max / 用时      对照 rms / max\r\n   1     2.42 /  16.01 /   10726       20.58 /  66.67\r\n   2     2.66 /  19.32 /   10910       20.69 /  67.70\r\n   3     2.43 /  15.76 /   10695       20.57 /  66.50\r\n   4     2.35 /  13.02 /   10644       20.59 /  66.50\r\n   5     2.53 /  17.37 /   10792       20.60 /  66.91\r\n   6     2.46 /  15.67 /   10936       20.81 /  68.67\r\n   7    11.78 /  96.88 /   11532       20.77 /  68.28   <<<\r\n   8     2.31 /  12.73 /   10646       20.59 /  66.60\r\n   9     2.40 /  15.96 /   10748       20.57 /  66.61\r\n  10     2.40 /  16.62 /   10778       20.68 /  67.59\r\n  11     2.85 /  22.06 /   10964       20.65 /  67.33\r\n  12     2.48 /  16.39 /   10764       20.63 /  67.08\r\n  13     2.12 /  13.48 /   10682       20.74 /  68.04\r\n  14     3.04 /  19.14 /   10997       20.65 /  67.33   <<<\r\n  15     2.23 /  13.10 /   10645       20.66 /  67.17\r\n  16     2.28 /  13.82 /   10662       20.63 /  67.02\r\n\r\n本文方法 rms 分布: 升序 [2.12, 2.23, 2.28, 2.31, 2.35, 2.4, 2.4, 2.42, 2.43, 2.46, 2.48, 2.53, 2.66, 2.85, 3.04, 11.78]\r\n≤2.5 m 的样本 11/16，2.5~4 m 4，>4 m 1\r\n四分位: Q1 2.34  中位 2.42  Q3 2.56",
+    "tool_name": "Bash",
+    "historical_input": {
+      "command": "cd \"C:/Users/19259/AppData/Local/Temp/claude/C--Users-shuziluansheng-xjp-daima/951e880a-cbb0-4f69-a8fe-11ea5f8ef245/scratchpad\" && python - <<'PY'\nimport io, re, sys\nimport numpy as np\nsys.stdout.reconfigure(encoding=\"utf-8\")\nrows = {1: {}, 3: {}}\nfor line in io.open(\"mc_results.txt\", encoding=\"utf-8\", errors=\"replace\"):\n    m = re.search(r\"group=(\\d+).*?sim_time_s=([\\d.]+).*?max_abs_xte_m=([\\d.-]+).*?rms_xte_m=([\\d.-]+)\"\n                  r\".*?sum_abs_rudder_change_deg=([\\d.-]+).*?deriv_seed=(\\d+)\", line)\n    if m: rows[int(m.group(1))][int(m.group(6))] = tuple(float(x) for x in m.group(2,3,4,5))\nprint(\"种子  本文方法 rms / max / 用时      对照 rms / max\")\ng3 = rows[3]; g1 = rows[1]\nfor s in sorted(g3):\n    t3, m3, r3, u3 = g3[s]; t1, m1, r1, u1 = g1[s]\n    flag = \"   <<<\" if r3 > 3.0 else \"\"\n    print(\"%4d   %6.2f / %6.2f / %7.0f      %6.2f / %6.2f%s\" % (s, r3, m3, t3, r1, m1, flag))\nv = np.array([g3[s][2] for s in sorted(g3)])\nprint()\nprint(\"本文方法 rms 分布: 升序\", np.round(np.sort(v), 2).tolist())\nprint(\"≤2.5 m 的样本 %d/16，2.5~4 m %d，>4 m %d\" %\n      ((v <= 2.5).sum(), ((v > 2.5) & (v <= 4)).sum(), (v > 4).sum()))\nprint(\"四分位: Q1 %.2f  中位 %.2f  Q3 %.2f\" % tuple(np.percentile(v, [25, 50, 75])))\nPY",
+      "description": "Inspect the per-seed distribution",
+      "timeout": 300000
+    },
+    "call_timestamp": "2026-09-18T09:07:53.031Z",
+    "stored_tool_result_sha256": "99cbefb7f0627bd945be1d098b42ed13e48dd40ca2c89572f8b8cb2ef79899a8"
+  },
+  {
+    "category": "rudder_margin",
+    "tool_id": "toolu_014q6C8C2bVzxDgu6NbC5EE6",
+    "result_timestamp": "2026-09-18T10:24:34.099Z",
+    "transcript_line": 7227,
+    "is_error": false,
+    "stored_tool_result": "ALL DONE\r\n\n[exited with code 255]\n===== 结果 =====\n工况         rpm      rms(m)   max(m)      累计舵角    用时(s)\r\nPERT7      100       10.63    95.19   12101.8  10732.0\r\nPERT7      105        3.40    26.82   11901.3   9760.5\r\nNOMINAL    90         2.24    14.29   10729.5  11458.5\r\nNOMINAL    85         2.19    12.91   11116.5  12344.5\r\nNOMINAL    80         2.19    11.80   11681.4  13381.5",
+    "tool_name": "Bash",
+    "historical_input": {
+      "command": "cd \"C:/Users/19259/AppData/Local/Temp/claude/C--Users-shuziluansheng-xjp-daima/951e880a-cbb0-4f69-a8fe-11ea5f8ef245\" && tail -3 tasks/b9jw4xnen.output && echo \"===== 结果 =====\" && python - <<'PY'\nimport io, re, sys\nsys.stdout.reconfigure(encoding=\"utf-8\")\nprint(\"%-10s %-6s %8s %8s %9s %8s\" % (\"工况\", \"rpm\", \"rms(m)\", \"max(m)\", \"累计舵角\", \"用时(s)\"))\nfor line in io.open(\"scratchpad/margin_results.txt\", encoding=\"utf-8\", errors=\"replace\"):\n    m = re.search(r\"(PERT7|NOMINAL) rpm=([\\d.]+).*?sim_time_s=([\\d.]+).*?max_abs_xte_m=([\\d.-]+)\"\n                  r\".*?rms_xte_m=([\\d.-]+).*?sum_abs_rudder_change_deg=([\\d.-]+)\", line)\n    if m:\n        tag, rpm, t, mx, rms, rud = m.groups()\n        print(\"%-10s %-6s %8s %8s %9s %8s\" % (tag, rpm, rms, mx, rud, t))\nPY",
+      "description": "Read margin experiment results"
+    },
+    "call_timestamp": "2026-09-18T10:24:25.896Z",
+    "stored_tool_result_sha256": "15435fb84202cf8a0ebc80995109e74d3a1cf683a54aca3a7693cc92de14896a"
+  }
+]

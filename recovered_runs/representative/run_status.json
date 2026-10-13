@@ -1,0 +1,1283 @@
+{
+  "total": 15,
+  "completed": [
+    {
+      "case": "derivative_g4_seed7_q105",
+      "group": "G4",
+      "command_argv": [
+        "E:\\Desk\\department\\shuziluansheng\\shuziluansheng\\xjp\\daima\\release\\xjp_release.exe",
+        "--batch",
+        "--group",
+        "3",
+        "--out",
+        "E:\\Desk\\第二篇\\仿真复核_20261013\\runs\\derivative_g4_seed7_q105",
+        "--max-time",
+        "16000",
+        "--deriv-perturb",
+        "0.20",
+        "--deriv-seed",
+        "7",
+        "--own-rpm",
+        "105"
+      ],
+      "working_directory": "E:\\Desk\\department\\shuziluansheng\\shuziluansheng\\xjp\\daima",
+      "started_at": "2026-10-13T18:45:37+08:00",
+      "expected_historical_rms_m": 3.4,
+      "expected_historical_maximum_m": 26.82,
+      "origin": "New simulation run; historical summary used only for comparison",
+      "pid": 32956,
+      "exit_code": 0,
+      "finished_at": "2026-10-13T18:48:46+08:00",
+      "wall_seconds": 188.797,
+      "summary": {
+        "group": "3",
+        "suffix": "Group4_Proposed",
+        "arrived": "1",
+        "sim_time_s": "9760.5",
+        "max_abs_xte_m": "26.82",
+        "rms_xte_m": "3.40",
+        "sum_abs_rudder_change_deg": "11901.3",
+        "shallow_water": "1",
+        "backwater_beta": "0.000",
+        "backwater_celerity_mps": "12.00",
+        "backwater_period_s": "44712",
+        "backwater_phase_deg": "0.0",
+        "kp": "8.000",
+        "ti": "50.000",
+        "td": "2.000",
+        "kff": "3.000e-06",
+        "ff_gain": "1.00",
+        "ff_bias_deg": "0.0",
+        "ff_lag_s": "0.0",
+        "xte_noise_m": "0.00",
+        "noise_seed": "1",
+        "base_rpm": "100.0",
+        "own_rpm": "105.0",
+        "fsi_split": "4x2",
+        "deriv_perturb": "0.200",
+        "deriv_seed": "7"
+      },
+      "historical_match": true,
+      "state_records": 19521,
+      "force_records": 19521,
+      "record_interval_s": 0.5,
+      "rms_recomputed_from_csv_m": 3.399320046457079,
+      "maximum_recomputed_from_csv_m": 26.8179,
+      "summary_sampling_s": 0.5,
+      "integrator_step_s": 0.1,
+      "files": {
+        "FSI_Group4_Proposed.csv": {
+          "bytes": 3701456,
+          "sha256": "dcaefa2fff4fe453fa8bc4d2282f5cd46a07b472f8f2df57820feb927e9315ea"
+        },
+        "Log_Group4_Proposed.csv": {
+          "bytes": 1863627,
+          "sha256": "c30d4bf4c66ed508b227d98787c8480b9ac6cf914707de7eb2b3ee4f2bb7c6de"
+        },
+        "stderr.txt": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout.txt": {
+          "bytes": 528,
+          "sha256": "12aae8557466a2c7244f1462cf39a681eba5263dc6bdf4d88d48ed3497aaaee4"
+        },
+        "Summary_Group4_Proposed.txt": {
+          "bytes": 434,
+          "sha256": "90e3cb14af68ebbd3018ebfc8a795c0a9ee22e3089ca6a052fa94aad824477ba"
+        }
+      }
+    },
+    {
+      "case": "derivative_g2_seed7",
+      "group": "G2",
+      "command_argv": [
+        "E:\\Desk\\department\\shuziluansheng\\shuziluansheng\\xjp\\daima\\release\\xjp_release.exe",
+        "--batch",
+        "--group",
+        "1",
+        "--out",
+        "E:\\Desk\\第二篇\\仿真复核_20261013\\runs\\derivative_g2_seed7",
+        "--max-time",
+        "16000",
+        "--deriv-perturb",
+        "0.20",
+        "--deriv-seed",
+        "7"
+      ],
+      "working_directory": "E:\\Desk\\department\\shuziluansheng\\shuziluansheng\\xjp\\daima",
+      "started_at": "2026-10-13T18:45:37+08:00",
+      "expected_historical_rms_m": 20.77,
+      "expected_historical_maximum_m": 68.28,
+      "origin": "New simulation run; historical summary used only for comparison",
+      "pid": 29292,
+      "exit_code": 0,
+      "finished_at": "2026-10-13T18:48:49+08:00",
+      "wall_seconds": 191.438,
+      "summary": {
+        "group": "1",
+        "suffix": "Group2_ConvILOS",
+        "arrived": "1",
+        "sim_time_s": "9872.0",
+        "max_abs_xte_m": "68.28",
+        "rms_xte_m": "20.77",
+        "sum_abs_rudder_change_deg": "14768.1",
+        "shallow_water": "1",
+        "backwater_beta": "0.000",
+        "backwater_celerity_mps": "12.00",
+        "backwater_period_s": "44712",
+        "backwater_phase_deg": "0.0",
+        "kp": "8.000",
+        "ti": "50.000",
+        "td": "2.000",
+        "kff": "3.000e-06",
+        "ff_gain": "1.00",
+        "ff_bias_deg": "0.0",
+        "ff_lag_s": "0.0",
+        "xte_noise_m": "0.00",
+        "noise_seed": "1",
+        "base_rpm": "100.0",
+        "own_rpm": "94.5",
+        "fsi_split": "4x2",
+        "deriv_perturb": "0.200",
+        "deriv_seed": "7"
+      },
+      "historical_match": true,
+      "state_records": 19744,
+      "force_records": 19744,
+      "record_interval_s": 0.5,
+      "rms_recomputed_from_csv_m": 20.774831430178217,
+      "maximum_recomputed_from_csv_m": 68.2786,
+      "summary_sampling_s": 0.5,
+      "integrator_step_s": 0.1,
+      "files": {
+        "FSI_Group2_ConvILOS.csv": {
+          "bytes": 3693733,
+          "sha256": "a58d750e437819a8a8a66fdec78c70999e7db743021c437d82eb3c1f5a97f105"
+        },
+        "Log_Group2_ConvILOS.csv": {
+          "bytes": 1884248,
+          "sha256": "390c217db80ac90b39581dbd582cd90ad0a793ddcbedda95d18a735aa4e62916"
+        },
+        "stderr.txt": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout.txt": {
+          "bytes": 528,
+          "sha256": "6b5cfea8ef88b6c3fe9176b5b9f63dd649d272c65afc6a1852a21bbddbcc8300"
+        },
+        "Summary_Group2_ConvILOS.txt": {
+          "bytes": 434,
+          "sha256": "297a7841dd443831b20ee36d1fdb99cb6af9edfc0baed742534f1f4cb59b4a89"
+        }
+      }
+    },
+    {
+      "case": "derivative_g4_seed7_q100",
+      "group": "G4",
+      "command_argv": [
+        "E:\\Desk\\department\\shuziluansheng\\shuziluansheng\\xjp\\daima\\release\\xjp_release.exe",
+        "--batch",
+        "--group",
+        "3",
+        "--out",
+        "E:\\Desk\\第二篇\\仿真复核_20261013\\runs\\derivative_g4_seed7_q100",
+        "--max-time",
+        "16000",
+        "--deriv-perturb",
+        "0.20",
+        "--deriv-seed",
+        "7",
+        "--own-rpm",
+        "100"
+      ],
+      "working_directory": "E:\\Desk\\department\\shuziluansheng\\shuziluansheng\\xjp\\daima",
+      "started_at": "2026-10-13T18:45:37+08:00",
+      "expected_historical_rms_m": 10.63,
+      "expected_historical_maximum_m": 95.19,
+      "origin": "New simulation run; historical summary used only for comparison",
+      "pid": 34940,
+      "exit_code": 0,
+      "finished_at": "2026-10-13T18:49:01+08:00",
+      "wall_seconds": 203.578,
+      "summary": {
+        "group": "3",
+        "suffix": "Group4_Proposed",
+        "arrived": "1",
+        "sim_time_s": "10732.0",
+        "max_abs_xte_m": "95.19",
+        "rms_xte_m": "10.63",
+        "sum_abs_rudder_change_deg": "12101.8",
+        "shallow_water": "1",
+        "backwater_beta": "0.000",
+        "backwater_celerity_mps": "12.00",
+        "backwater_period_s": "44712",
+        "backwater_phase_deg": "0.0",
+        "kp": "8.000",
+        "ti": "50.000",
+        "td": "2.000",
+        "kff": "3.000e-06",
+        "ff_gain": "1.00",
+        "ff_bias_deg": "0.0",
+        "ff_lag_s": "0.0",
+        "xte_noise_m": "0.00",
+        "noise_seed": "1",
+        "base_rpm": "100.0",
+        "own_rpm": "100.0",
+        "fsi_split": "4x2",
+        "deriv_perturb": "0.200",
+        "deriv_seed": "7"
+      },
+      "historical_match": true,
+      "state_records": 21464,
+      "force_records": 21464,
+      "record_interval_s": 0.5,
+      "rms_recomputed_from_csv_m": 10.629250791204296,
+      "maximum_recomputed_from_csv_m": 95.1879,
+      "summary_sampling_s": 0.5,
+      "integrator_step_s": 0.1,
+      "files": {
+        "FSI_Group4_Proposed.csv": {
+          "bytes": 4073949,
+          "sha256": "6a0893c04d936a07b30674b3ed771e9d357ba3fff9c9904d20f5d7507a4e42fe"
+        },
+        "Log_Group4_Proposed.csv": {
+          "bytes": 2041487,
+          "sha256": "c9ead2dc3234d032fcc22af84457f3ef63f7a6421009ae091fcb57c6f7484fa2"
+        },
+        "stderr.txt": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout.txt": {
+          "bytes": 530,
+          "sha256": "73227d68299e8b0ba5e6932a3e10a4b511e5320125ac4042006d7f04ef46741c"
+        },
+        "Summary_Group4_Proposed.txt": {
+          "bytes": 436,
+          "sha256": "2b81a0ad9136e8a8e6bd8b32493a106df145e17c9625ca07f0013a4281c7b1d5"
+        }
+      }
+    },
+    {
+      "case": "derivative_g4_seed7_q94_5",
+      "group": "G4",
+      "command_argv": [
+        "E:\\Desk\\department\\shuziluansheng\\shuziluansheng\\xjp\\daima\\release\\xjp_release.exe",
+        "--batch",
+        "--group",
+        "3",
+        "--out",
+        "E:\\Desk\\第二篇\\仿真复核_20261013\\runs\\derivative_g4_seed7_q94_5",
+        "--max-time",
+        "16000",
+        "--deriv-perturb",
+        "0.20",
+        "--deriv-seed",
+        "7"
+      ],
+      "working_directory": "E:\\Desk\\department\\shuziluansheng\\shuziluansheng\\xjp\\daima",
+      "started_at": "2026-10-13T18:45:37+08:00",
+      "expected_historical_rms_m": 11.78,
+      "expected_historical_maximum_m": 96.88,
+      "origin": "New simulation run; historical summary used only for comparison",
+      "pid": 35604,
+      "exit_code": 0,
+      "finished_at": "2026-10-13T18:49:13+08:00",
+      "wall_seconds": 215.313,
+      "summary": {
+        "group": "3",
+        "suffix": "Group4_Proposed",
+        "arrived": "1",
+        "sim_time_s": "11532.5",
+        "max_abs_xte_m": "96.88",
+        "rms_xte_m": "11.78",
+        "sum_abs_rudder_change_deg": "12619.9",
+        "shallow_water": "1",
+        "backwater_beta": "0.000",
+        "backwater_celerity_mps": "12.00",
+        "backwater_period_s": "44712",
+        "backwater_phase_deg": "0.0",
+        "kp": "8.000",
+        "ti": "50.000",
+        "td": "2.000",
+        "kff": "3.000e-06",
+        "ff_gain": "1.00",
+        "ff_bias_deg": "0.0",
+        "ff_lag_s": "0.0",
+        "xte_noise_m": "0.00",
+        "noise_seed": "1",
+        "base_rpm": "100.0",
+        "own_rpm": "94.5",
+        "fsi_split": "4x2",
+        "deriv_perturb": "0.200",
+        "deriv_seed": "7"
+      },
+      "historical_match": true,
+      "state_records": 23065,
+      "force_records": 23065,
+      "record_interval_s": 0.5,
+      "rms_recomputed_from_csv_m": 11.778590805591154,
+      "maximum_recomputed_from_csv_m": 96.8765,
+      "summary_sampling_s": 0.5,
+      "integrator_step_s": 0.1,
+      "files": {
+        "FSI_Group4_Proposed.csv": {
+          "bytes": 4375416,
+          "sha256": "4b677afaafb86c8b1bca40ca8fe07c9b3c23aa1381a90c8125e07641cdff5d66"
+        },
+        "Log_Group4_Proposed.csv": {
+          "bytes": 2186478,
+          "sha256": "e6702f90b6e8f60a108173805ca17cf886fcca430107b06857e89d398ed2c9b6"
+        },
+        "stderr.txt": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout.txt": {
+          "bytes": 529,
+          "sha256": "672ab6b43731e2b19a31fa123de6db8e0fb3737dd9a0a48aabe847bde1bc74cc"
+        },
+        "Summary_Group4_Proposed.txt": {
+          "bytes": 435,
+          "sha256": "e205144028a576cd87c487c069ace1c87dfe1c0b2e0aaa4aff9fc6ed4eaaf112"
+        }
+      }
+    },
+    {
+      "case": "prior_gain070",
+      "group": "G4",
+      "command_argv": [
+        "E:\\Desk\\department\\shuziluansheng\\shuziluansheng\\xjp\\daima\\release\\xjp_release.exe",
+        "--batch",
+        "--group",
+        "3",
+        "--out",
+        "E:\\Desk\\第二篇\\仿真复核_20261013\\runs\\prior_gain070",
+        "--max-time",
+        "16000",
+        "--ff-gain",
+        "0.7"
+      ],
+      "working_directory": "E:\\Desk\\department\\shuziluansheng\\shuziluansheng\\xjp\\daima",
+      "started_at": "2026-10-13T18:48:47+08:00",
+      "expected_historical_rms_m": 12.49,
+      "expected_historical_maximum_m": 27.76,
+      "origin": "New simulation run; historical summary used only for comparison",
+      "pid": 22656,
+      "exit_code": 0,
+      "finished_at": "2026-10-13T18:52:06+08:00",
+      "wall_seconds": 199.188,
+      "summary": {
+        "group": "3",
+        "suffix": "Group4_Proposed",
+        "arrived": "1",
+        "sim_time_s": "10683.5",
+        "max_abs_xte_m": "27.76",
+        "rms_xte_m": "12.49",
+        "sum_abs_rudder_change_deg": "9768.1",
+        "shallow_water": "1",
+        "backwater_beta": "0.000",
+        "backwater_celerity_mps": "12.00",
+        "backwater_period_s": "44712",
+        "backwater_phase_deg": "0.0",
+        "kp": "8.000",
+        "ti": "50.000",
+        "td": "2.000",
+        "kff": "3.000e-06",
+        "ff_gain": "0.70",
+        "ff_bias_deg": "0.0",
+        "ff_lag_s": "0.0",
+        "xte_noise_m": "0.00",
+        "noise_seed": "1",
+        "base_rpm": "100.0",
+        "own_rpm": "94.5",
+        "fsi_split": "4x2",
+        "deriv_perturb": "0.000",
+        "deriv_seed": "1"
+      },
+      "historical_match": true,
+      "state_records": 21367,
+      "force_records": 21367,
+      "record_interval_s": 0.5,
+      "rms_recomputed_from_csv_m": 12.490372634562434,
+      "maximum_recomputed_from_csv_m": 27.7633,
+      "summary_sampling_s": 0.5,
+      "integrator_step_s": 0.1,
+      "files": {
+        "FSI_Group4_Proposed.csv": {
+          "bytes": 4003560,
+          "sha256": "8cbfc240923c52c4d8b465bc14179b326aa5dca5496370ec8456be3882cba292"
+        },
+        "Log_Group4_Proposed.csv": {
+          "bytes": 2033253,
+          "sha256": "d4abe8f587a9f754be82bec3f98fd9bcd85f787a49e95d540bfd7312b6a638f7"
+        },
+        "stderr.txt": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout.txt": {
+          "bytes": 434,
+          "sha256": "b91e5b66db8f03501d916dbbb74184f1cb89c56e0cf308674e2a9ebd02bd6282"
+        },
+        "Summary_Group4_Proposed.txt": {
+          "bytes": 434,
+          "sha256": "b91e5b66db8f03501d916dbbb74184f1cb89c56e0cf308674e2a9ebd02bd6282"
+        }
+      }
+    },
+    {
+      "case": "prior_gain130",
+      "group": "G4",
+      "command_argv": [
+        "E:\\Desk\\department\\shuziluansheng\\shuziluansheng\\xjp\\daima\\release\\xjp_release.exe",
+        "--batch",
+        "--group",
+        "3",
+        "--out",
+        "E:\\Desk\\第二篇\\仿真复核_20261013\\runs\\prior_gain130",
+        "--max-time",
+        "16000",
+        "--ff-gain",
+        "1.3"
+      ],
+      "working_directory": "E:\\Desk\\department\\shuziluansheng\\shuziluansheng\\xjp\\daima",
+      "started_at": "2026-10-13T18:48:49+08:00",
+      "expected_historical_rms_m": 11.96,
+      "expected_historical_maximum_m": 30.12,
+      "origin": "New simulation run; historical summary used only for comparison",
+      "pid": 34080,
+      "exit_code": 0,
+      "finished_at": "2026-10-13T18:52:11+08:00",
+      "wall_seconds": 201.453,
+      "summary": {
+        "group": "3",
+        "suffix": "Group4_Proposed",
+        "arrived": "1",
+        "sim_time_s": "10856.5",
+        "max_abs_xte_m": "30.12",
+        "rms_xte_m": "11.96",
+        "sum_abs_rudder_change_deg": "11455.3",
+        "shallow_water": "1",
+        "backwater_beta": "0.000",
+        "backwater_celerity_mps": "12.00",
+        "backwater_period_s": "44712",
+        "backwater_phase_deg": "0.0",
+        "kp": "8.000",
+        "ti": "50.000",
+        "td": "2.000",
+        "kff": "3.000e-06",
+        "ff_gain": "1.30",
+        "ff_bias_deg": "0.0",
+        "ff_lag_s": "0.0",
+        "xte_noise_m": "0.00",
+        "noise_seed": "1",
+        "base_rpm": "100.0",
+        "own_rpm": "94.5",
+        "fsi_split": "4x2",
+        "deriv_perturb": "0.000",
+        "deriv_seed": "1"
+      },
+      "historical_match": true,
+      "state_records": 21713,
+      "force_records": 21713,
+      "record_interval_s": 0.5,
+      "rms_recomputed_from_csv_m": 11.964195016529104,
+      "maximum_recomputed_from_csv_m": 30.1159,
+      "summary_sampling_s": 0.5,
+      "integrator_step_s": 0.1,
+      "files": {
+        "FSI_Group4_Proposed.csv": {
+          "bytes": 4089155,
+          "sha256": "cbe7a3c80bcefc57ce9189074d22a9af177d5182577020f67ac1225a341d34c4"
+        },
+        "Log_Group4_Proposed.csv": {
+          "bytes": 2065572,
+          "sha256": "4e75e48304de265d5e59bf4b6c4d0857c1365c133254b62efa72e67b0d6537cb"
+        },
+        "stderr.txt": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout.txt": {
+          "bytes": 435,
+          "sha256": "87a553f24b83c44dbe66c99ed8b75cb133d035d495179e67ae2129a0f3e1522a"
+        },
+        "Summary_Group4_Proposed.txt": {
+          "bytes": 435,
+          "sha256": "87a553f24b83c44dbe66c99ed8b75cb133d035d495179e67ae2129a0f3e1522a"
+        }
+      }
+    },
+    {
+      "case": "prior_bias_p15",
+      "group": "G4",
+      "command_argv": [
+        "E:\\Desk\\department\\shuziluansheng\\shuziluansheng\\xjp\\daima\\release\\xjp_release.exe",
+        "--batch",
+        "--group",
+        "3",
+        "--out",
+        "E:\\Desk\\第二篇\\仿真复核_20261013\\runs\\prior_bias_p15",
+        "--max-time",
+        "16000",
+        "--ff-bias",
+        "15"
+      ],
+      "working_directory": "E:\\Desk\\department\\shuziluansheng\\shuziluansheng\\xjp\\daima",
+      "started_at": "2026-10-13T18:49:01+08:00",
+      "expected_historical_rms_m": 16.53,
+      "expected_historical_maximum_m": 36.35,
+      "origin": "New simulation run; historical summary used only for comparison",
+      "pid": 31240,
+      "exit_code": 0,
+      "finished_at": "2026-10-13T18:52:19+08:00",
+      "wall_seconds": 197.422,
+      "summary": {
+        "group": "3",
+        "suffix": "Group4_Proposed",
+        "arrived": "1",
+        "sim_time_s": "10734.5",
+        "max_abs_xte_m": "36.35",
+        "rms_xte_m": "16.53",
+        "sum_abs_rudder_change_deg": "11242.2",
+        "shallow_water": "1",
+        "backwater_beta": "0.000",
+        "backwater_celerity_mps": "12.00",
+        "backwater_period_s": "44712",
+        "backwater_phase_deg": "0.0",
+        "kp": "8.000",
+        "ti": "50.000",
+        "td": "2.000",
+        "kff": "3.000e-06",
+        "ff_gain": "1.00",
+        "ff_bias_deg": "15.0",
+        "ff_lag_s": "0.0",
+        "xte_noise_m": "0.00",
+        "noise_seed": "1",
+        "base_rpm": "100.0",
+        "own_rpm": "94.5",
+        "fsi_split": "4x2",
+        "deriv_perturb": "0.000",
+        "deriv_seed": "1"
+      },
+      "historical_match": true,
+      "state_records": 21469,
+      "force_records": 21469,
+      "record_interval_s": 0.5,
+      "rms_recomputed_from_csv_m": 16.529926686341604,
+      "maximum_recomputed_from_csv_m": 36.3458,
+      "summary_sampling_s": 0.5,
+      "integrator_step_s": 0.1,
+      "files": {
+        "FSI_Group4_Proposed.csv": {
+          "bytes": 4035038,
+          "sha256": "5adb0fbdce8d096b8852a1b93613f4fa2dfb34ade892905fdc8cca3aa6f5e323"
+        },
+        "Log_Group4_Proposed.csv": {
+          "bytes": 2051655,
+          "sha256": "8ef51f6f486f0bda2eaa836ab626a4cfd71cc81fdbf65c5579d778e834cbbfe3"
+        },
+        "stderr.txt": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout.txt": {
+          "bytes": 436,
+          "sha256": "3585dce135a58666e3c5c0e99f294dd920dacb0514cffcb0be41181865eda2cc"
+        },
+        "Summary_Group4_Proposed.txt": {
+          "bytes": 436,
+          "sha256": "3585dce135a58666e3c5c0e99f294dd920dacb0514cffcb0be41181865eda2cc"
+        }
+      }
+    },
+    {
+      "case": "prior_bias_m15",
+      "group": "G4",
+      "command_argv": [
+        "E:\\Desk\\department\\shuziluansheng\\shuziluansheng\\xjp\\daima\\release\\xjp_release.exe",
+        "--batch",
+        "--group",
+        "3",
+        "--out",
+        "E:\\Desk\\第二篇\\仿真复核_20261013\\runs\\prior_bias_m15",
+        "--max-time",
+        "16000",
+        "--ff-bias",
+        "-15"
+      ],
+      "working_directory": "E:\\Desk\\department\\shuziluansheng\\shuziluansheng\\xjp\\daima",
+      "started_at": "2026-10-13T18:49:13+08:00",
+      "expected_historical_rms_m": 17.11,
+      "expected_historical_maximum_m": 32.43,
+      "origin": "New simulation run; historical summary used only for comparison",
+      "pid": 26520,
+      "exit_code": 0,
+      "finished_at": "2026-10-13T18:52:33+08:00",
+      "wall_seconds": 199.766,
+      "summary": {
+        "group": "3",
+        "suffix": "Group4_Proposed",
+        "arrived": "1",
+        "sim_time_s": "10827.5",
+        "max_abs_xte_m": "32.43",
+        "rms_xte_m": "17.11",
+        "sum_abs_rudder_change_deg": "11393.7",
+        "shallow_water": "1",
+        "backwater_beta": "0.000",
+        "backwater_celerity_mps": "12.00",
+        "backwater_period_s": "44712",
+        "backwater_phase_deg": "0.0",
+        "kp": "8.000",
+        "ti": "50.000",
+        "td": "2.000",
+        "kff": "3.000e-06",
+        "ff_gain": "1.00",
+        "ff_bias_deg": "-15.0",
+        "ff_lag_s": "0.0",
+        "xte_noise_m": "0.00",
+        "noise_seed": "1",
+        "base_rpm": "100.0",
+        "own_rpm": "94.5",
+        "fsi_split": "4x2",
+        "deriv_perturb": "0.000",
+        "deriv_seed": "1"
+      },
+      "historical_match": true,
+      "state_records": 21655,
+      "force_records": 21655,
+      "record_interval_s": 0.5,
+      "rms_recomputed_from_csv_m": 17.11385920887655,
+      "maximum_recomputed_from_csv_m": 32.4261,
+      "summary_sampling_s": 0.5,
+      "integrator_step_s": 0.1,
+      "files": {
+        "FSI_Group4_Proposed.csv": {
+          "bytes": 4072970,
+          "sha256": "f8c9fa64e324246ddadb64b8c97792aaf27fe6b65fb42cdcc7f480feb7f55fc7"
+        },
+        "Log_Group4_Proposed.csv": {
+          "bytes": 2056271,
+          "sha256": "55343ab4a89adb56b3d0d9f26b9c22bca98c80e34f28b31400c4b57b5cf1244c"
+        },
+        "stderr.txt": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout.txt": {
+          "bytes": 437,
+          "sha256": "ae951dfafe1ea6fb775a0be79dea93f430a53e6483573c74cd16609851d9fe25"
+        },
+        "Summary_Group4_Proposed.txt": {
+          "bytes": 437,
+          "sha256": "ae951dfafe1ea6fb775a0be79dea93f430a53e6483573c74cd16609851d9fe25"
+        }
+      }
+    },
+    {
+      "case": "prior_lag60",
+      "group": "G4",
+      "command_argv": [
+        "E:\\Desk\\department\\shuziluansheng\\shuziluansheng\\xjp\\daima\\release\\xjp_release.exe",
+        "--batch",
+        "--group",
+        "3",
+        "--out",
+        "E:\\Desk\\第二篇\\仿真复核_20261013\\runs\\prior_lag60",
+        "--max-time",
+        "16000",
+        "--ff-lag",
+        "60"
+      ],
+      "working_directory": "E:\\Desk\\department\\shuziluansheng\\shuziluansheng\\xjp\\daima",
+      "started_at": "2026-10-13T18:52:06+08:00",
+      "expected_historical_rms_m": 5.23,
+      "expected_historical_maximum_m": 26.81,
+      "origin": "New simulation run; historical summary used only for comparison",
+      "pid": 3320,
+      "exit_code": 0,
+      "finished_at": "2026-10-13T18:55:24+08:00",
+      "wall_seconds": 198.109,
+      "summary": {
+        "group": "3",
+        "suffix": "Group4_Proposed",
+        "arrived": "1",
+        "sim_time_s": "10769.5",
+        "max_abs_xte_m": "26.81",
+        "rms_xte_m": "5.23",
+        "sum_abs_rudder_change_deg": "10100.3",
+        "shallow_water": "1",
+        "backwater_beta": "0.000",
+        "backwater_celerity_mps": "12.00",
+        "backwater_period_s": "44712",
+        "backwater_phase_deg": "0.0",
+        "kp": "8.000",
+        "ti": "50.000",
+        "td": "2.000",
+        "kff": "3.000e-06",
+        "ff_gain": "1.00",
+        "ff_bias_deg": "0.0",
+        "ff_lag_s": "60.0",
+        "xte_noise_m": "0.00",
+        "noise_seed": "1",
+        "base_rpm": "100.0",
+        "own_rpm": "94.5",
+        "fsi_split": "4x2",
+        "deriv_perturb": "0.000",
+        "deriv_seed": "1"
+      },
+      "historical_match": true,
+      "state_records": 21539,
+      "force_records": 21539,
+      "record_interval_s": 0.5,
+      "rms_recomputed_from_csv_m": 5.231384729620618,
+      "maximum_recomputed_from_csv_m": 26.8129,
+      "summary_sampling_s": 0.5,
+      "integrator_step_s": 0.1,
+      "files": {
+        "FSI_Group4_Proposed.csv": {
+          "bytes": 4048373,
+          "sha256": "6f3f1761f0c72d1c9efcd9997f967c703ba66695d2794609b21d0e4efc42c669"
+        },
+        "Log_Group4_Proposed.csv": {
+          "bytes": 2040100,
+          "sha256": "5ef53797d65922a23174dfc65f986f29f2b1a5c2895ad19c511202510e781d44"
+        },
+        "stderr.txt": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout.txt": {
+          "bytes": 435,
+          "sha256": "7d033d02d0a017a4a1529c156a649d417df3a425dfb95890c263a1288ecaa6ed"
+        },
+        "Summary_Group4_Proposed.txt": {
+          "bytes": 435,
+          "sha256": "7d033d02d0a017a4a1529c156a649d417df3a425dfb95890c263a1288ecaa6ed"
+        }
+      }
+    },
+    {
+      "case": "prior_combined",
+      "group": "G4",
+      "command_argv": [
+        "E:\\Desk\\department\\shuziluansheng\\shuziluansheng\\xjp\\daima\\release\\xjp_release.exe",
+        "--batch",
+        "--group",
+        "3",
+        "--out",
+        "E:\\Desk\\第二篇\\仿真复核_20261013\\runs\\prior_combined",
+        "--max-time",
+        "16000",
+        "--ff-gain",
+        "0.7",
+        "--ff-bias",
+        "15",
+        "--ff-lag",
+        "60",
+        "--xte-noise",
+        "2",
+        "--noise-seed",
+        "1"
+      ],
+      "working_directory": "E:\\Desk\\department\\shuziluansheng\\shuziluansheng\\xjp\\daima",
+      "started_at": "2026-10-13T18:52:11+08:00",
+      "expected_historical_rms_m": 16.88,
+      "expected_historical_maximum_m": 53.12,
+      "origin": "New simulation run; historical summary used only for comparison",
+      "pid": 30280,
+      "exit_code": 0,
+      "finished_at": "2026-10-13T18:55:29+08:00",
+      "wall_seconds": 197.641,
+      "summary": {
+        "group": "3",
+        "suffix": "Group4_Proposed",
+        "arrived": "1",
+        "sim_time_s": "10741.0",
+        "max_abs_xte_m": "53.12",
+        "rms_xte_m": "16.88",
+        "sum_abs_rudder_change_deg": "16182.2",
+        "shallow_water": "1",
+        "backwater_beta": "0.000",
+        "backwater_celerity_mps": "12.00",
+        "backwater_period_s": "44712",
+        "backwater_phase_deg": "0.0",
+        "kp": "8.000",
+        "ti": "50.000",
+        "td": "2.000",
+        "kff": "3.000e-06",
+        "ff_gain": "0.70",
+        "ff_bias_deg": "15.0",
+        "ff_lag_s": "60.0",
+        "xte_noise_m": "2.00",
+        "noise_seed": "1",
+        "base_rpm": "100.0",
+        "own_rpm": "94.5",
+        "fsi_split": "4x2",
+        "deriv_perturb": "0.000",
+        "deriv_seed": "1"
+      },
+      "historical_match": true,
+      "state_records": 21482,
+      "force_records": 21482,
+      "record_interval_s": 0.5,
+      "rms_recomputed_from_csv_m": 16.881150123337687,
+      "maximum_recomputed_from_csv_m": 53.1218,
+      "summary_sampling_s": 0.5,
+      "integrator_step_s": 0.1,
+      "files": {
+        "FSI_Group4_Proposed.csv": {
+          "bytes": 4032610,
+          "sha256": "6d2d4435fe5a65da9ee83a51c295e08c2d610d974b60e18db1d8799196f682c7"
+        },
+        "Log_Group4_Proposed.csv": {
+          "bytes": 2046991,
+          "sha256": "f2ea870b053baddc8c27130128333e0d4ffdec88556911b0672f8341ef4ccc67"
+        },
+        "stderr.txt": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout.txt": {
+          "bytes": 437,
+          "sha256": "50178558c222192443849a000569ec88c4a23ec134263acc9e8da60bb44920db"
+        },
+        "Summary_Group4_Proposed.txt": {
+          "bytes": 437,
+          "sha256": "50178558c222192443849a000569ec88c4a23ec134263acc9e8da60bb44920db"
+        }
+      }
+    },
+    {
+      "case": "noise_seed1",
+      "group": "G4",
+      "command_argv": [
+        "E:\\Desk\\department\\shuziluansheng\\shuziluansheng\\xjp\\daima\\release\\xjp_release.exe",
+        "--batch",
+        "--group",
+        "3",
+        "--out",
+        "E:\\Desk\\第二篇\\仿真复核_20261013\\runs\\noise_seed1",
+        "--max-time",
+        "16000",
+        "--xte-noise",
+        "2",
+        "--noise-seed",
+        "1"
+      ],
+      "working_directory": "E:\\Desk\\department\\shuziluansheng\\shuziluansheng\\xjp\\daima",
+      "started_at": "2026-10-13T18:52:19+08:00",
+      "expected_historical_rms_m": 2.67,
+      "expected_historical_maximum_m": 12.91,
+      "origin": "New simulation run; historical summary used only for comparison",
+      "pid": 18604,
+      "exit_code": 0,
+      "finished_at": "2026-10-13T18:55:35+08:00",
+      "wall_seconds": 195.875,
+      "summary": {
+        "group": "3",
+        "suffix": "Group4_Proposed",
+        "arrived": "1",
+        "sim_time_s": "10748.0",
+        "max_abs_xte_m": "12.91",
+        "rms_xte_m": "2.67",
+        "sum_abs_rudder_change_deg": "16524.4",
+        "shallow_water": "1",
+        "backwater_beta": "0.000",
+        "backwater_celerity_mps": "12.00",
+        "backwater_period_s": "44712",
+        "backwater_phase_deg": "0.0",
+        "kp": "8.000",
+        "ti": "50.000",
+        "td": "2.000",
+        "kff": "3.000e-06",
+        "ff_gain": "1.00",
+        "ff_bias_deg": "0.0",
+        "ff_lag_s": "0.0",
+        "xte_noise_m": "2.00",
+        "noise_seed": "1",
+        "base_rpm": "100.0",
+        "own_rpm": "94.5",
+        "fsi_split": "4x2",
+        "deriv_perturb": "0.000",
+        "deriv_seed": "1"
+      },
+      "historical_match": true,
+      "state_records": 21496,
+      "force_records": 21496,
+      "record_interval_s": 0.5,
+      "rms_recomputed_from_csv_m": 2.673217689938833,
+      "maximum_recomputed_from_csv_m": 12.9062,
+      "summary_sampling_s": 0.5,
+      "integrator_step_s": 0.1,
+      "files": {
+        "FSI_Group4_Proposed.csv": {
+          "bytes": 4040738,
+          "sha256": "df76ad236f4846ec8b84b329c35c979a2adb0769e50182fd8ac582abb8d88e2b"
+        },
+        "Log_Group4_Proposed.csv": {
+          "bytes": 2034975,
+          "sha256": "693818ec4ce68be952a556345669377c575243f406e28b0bc57003d72eb0d9ba"
+        },
+        "stderr.txt": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout.txt": {
+          "bytes": 434,
+          "sha256": "2b394921d8295924ededed09e372d57f8b2e8ace70fecd41803f8716f6b026ac"
+        },
+        "Summary_Group4_Proposed.txt": {
+          "bytes": 434,
+          "sha256": "2b394921d8295924ededed09e372d57f8b2e8ace70fecd41803f8716f6b026ac"
+        }
+      }
+    },
+    {
+      "case": "noise_seed2",
+      "group": "G4",
+      "command_argv": [
+        "E:\\Desk\\department\\shuziluansheng\\shuziluansheng\\xjp\\daima\\release\\xjp_release.exe",
+        "--batch",
+        "--group",
+        "3",
+        "--out",
+        "E:\\Desk\\第二篇\\仿真复核_20261013\\runs\\noise_seed2",
+        "--max-time",
+        "16000",
+        "--xte-noise",
+        "2",
+        "--noise-seed",
+        "2"
+      ],
+      "working_directory": "E:\\Desk\\department\\shuziluansheng\\shuziluansheng\\xjp\\daima",
+      "started_at": "2026-10-13T18:52:33+08:00",
+      "expected_historical_rms_m": 2.96,
+      "expected_historical_maximum_m": 19.11,
+      "origin": "New simulation run; historical summary used only for comparison",
+      "pid": 19616,
+      "exit_code": 0,
+      "finished_at": "2026-10-13T18:55:52+08:00",
+      "wall_seconds": 199.25,
+      "summary": {
+        "group": "3",
+        "suffix": "Group4_Proposed",
+        "arrived": "1",
+        "sim_time_s": "10802.0",
+        "max_abs_xte_m": "19.11",
+        "rms_xte_m": "2.96",
+        "sum_abs_rudder_change_deg": "16695.7",
+        "shallow_water": "1",
+        "backwater_beta": "0.000",
+        "backwater_celerity_mps": "12.00",
+        "backwater_period_s": "44712",
+        "backwater_phase_deg": "0.0",
+        "kp": "8.000",
+        "ti": "50.000",
+        "td": "2.000",
+        "kff": "3.000e-06",
+        "ff_gain": "1.00",
+        "ff_bias_deg": "0.0",
+        "ff_lag_s": "0.0",
+        "xte_noise_m": "2.00",
+        "noise_seed": "2",
+        "base_rpm": "100.0",
+        "own_rpm": "94.5",
+        "fsi_split": "4x2",
+        "deriv_perturb": "0.000",
+        "deriv_seed": "1"
+      },
+      "historical_match": true,
+      "state_records": 21604,
+      "force_records": 21604,
+      "record_interval_s": 0.5,
+      "rms_recomputed_from_csv_m": 2.9580831445251943,
+      "maximum_recomputed_from_csv_m": 19.1124,
+      "summary_sampling_s": 0.5,
+      "integrator_step_s": 0.1,
+      "files": {
+        "FSI_Group4_Proposed.csv": {
+          "bytes": 4062379,
+          "sha256": "8d492e3676b58a2ef06bb245dc866008f66b0d884320a86620c03e1c49550de9"
+        },
+        "Log_Group4_Proposed.csv": {
+          "bytes": 2046277,
+          "sha256": "994c62368cbd5646ce7d0a9fa997c25b97385b3def1755c7aa9b7181f18eb893"
+        },
+        "stderr.txt": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout.txt": {
+          "bytes": 434,
+          "sha256": "721bbff66a1700f3e2e731aadef822b703dfa3ba77192f0a62179dcbeaedfa5f"
+        },
+        "Summary_Group4_Proposed.txt": {
+          "bytes": 434,
+          "sha256": "721bbff66a1700f3e2e731aadef822b703dfa3ba77192f0a62179dcbeaedfa5f"
+        }
+      }
+    },
+    {
+      "case": "noise_seed3",
+      "group": "G4",
+      "command_argv": [
+        "E:\\Desk\\department\\shuziluansheng\\shuziluansheng\\xjp\\daima\\release\\xjp_release.exe",
+        "--batch",
+        "--group",
+        "3",
+        "--out",
+        "E:\\Desk\\第二篇\\仿真复核_20261013\\runs\\noise_seed3",
+        "--max-time",
+        "16000",
+        "--xte-noise",
+        "2",
+        "--noise-seed",
+        "3"
+      ],
+      "working_directory": "E:\\Desk\\department\\shuziluansheng\\shuziluansheng\\xjp\\daima",
+      "started_at": "2026-10-13T18:55:25+08:00",
+      "expected_historical_rms_m": 2.58,
+      "expected_historical_maximum_m": 12.41,
+      "origin": "New simulation run; historical summary used only for comparison",
+      "pid": 9864,
+      "exit_code": 0,
+      "finished_at": "2026-10-13T18:58:32+08:00",
+      "wall_seconds": 187.016,
+      "summary": {
+        "group": "3",
+        "suffix": "Group4_Proposed",
+        "arrived": "1",
+        "sim_time_s": "10763.5",
+        "max_abs_xte_m": "12.41",
+        "rms_xte_m": "2.58",
+        "sum_abs_rudder_change_deg": "16744.7",
+        "shallow_water": "1",
+        "backwater_beta": "0.000",
+        "backwater_celerity_mps": "12.00",
+        "backwater_period_s": "44712",
+        "backwater_phase_deg": "0.0",
+        "kp": "8.000",
+        "ti": "50.000",
+        "td": "2.000",
+        "kff": "3.000e-06",
+        "ff_gain": "1.00",
+        "ff_bias_deg": "0.0",
+        "ff_lag_s": "0.0",
+        "xte_noise_m": "2.00",
+        "noise_seed": "3",
+        "base_rpm": "100.0",
+        "own_rpm": "94.5",
+        "fsi_split": "4x2",
+        "deriv_perturb": "0.000",
+        "deriv_seed": "1"
+      },
+      "historical_match": true,
+      "state_records": 21527,
+      "force_records": 21527,
+      "record_interval_s": 0.5,
+      "rms_recomputed_from_csv_m": 2.5807081054104986,
+      "maximum_recomputed_from_csv_m": 12.4136,
+      "summary_sampling_s": 0.5,
+      "integrator_step_s": 0.1,
+      "files": {
+        "FSI_Group4_Proposed.csv": {
+          "bytes": 4050014,
+          "sha256": "cd7331567234cae3ffbda573231bf69546782510479784dd2330abba494f802c"
+        },
+        "Log_Group4_Proposed.csv": {
+          "bytes": 2039798,
+          "sha256": "642e57de37777028b385fb3726d5c02de43c69ab504efbfea43a7b4851b3aff9"
+        },
+        "stderr.txt": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout.txt": {
+          "bytes": 434,
+          "sha256": "c3d687a162667d11df8f4fc029f7ae998563bb95787f2a5371e79a630ed7da1b"
+        },
+        "Summary_Group4_Proposed.txt": {
+          "bytes": 434,
+          "sha256": "c3d687a162667d11df8f4fc029f7ae998563bb95787f2a5371e79a630ed7da1b"
+        }
+      }
+    },
+    {
+      "case": "noise_seed4",
+      "group": "G4",
+      "command_argv": [
+        "E:\\Desk\\department\\shuziluansheng\\shuziluansheng\\xjp\\daima\\release\\xjp_release.exe",
+        "--batch",
+        "--group",
+        "3",
+        "--out",
+        "E:\\Desk\\第二篇\\仿真复核_20261013\\runs\\noise_seed4",
+        "--max-time",
+        "16000",
+        "--xte-noise",
+        "2",
+        "--noise-seed",
+        "4"
+      ],
+      "working_directory": "E:\\Desk\\department\\shuziluansheng\\shuziluansheng\\xjp\\daima",
+      "started_at": "2026-10-13T18:55:29+08:00",
+      "expected_historical_rms_m": 2.56,
+      "expected_historical_maximum_m": 16.38,
+      "origin": "New simulation run; historical summary used only for comparison",
+      "pid": 22840,
+      "exit_code": 0,
+      "finished_at": "2026-10-13T18:58:37+08:00",
+      "wall_seconds": 187.718,
+      "summary": {
+        "group": "3",
+        "suffix": "Group4_Proposed",
+        "arrived": "1",
+        "sim_time_s": "10788.5",
+        "max_abs_xte_m": "16.38",
+        "rms_xte_m": "2.56",
+        "sum_abs_rudder_change_deg": "16532.4",
+        "shallow_water": "1",
+        "backwater_beta": "0.000",
+        "backwater_celerity_mps": "12.00",
+        "backwater_period_s": "44712",
+        "backwater_phase_deg": "0.0",
+        "kp": "8.000",
+        "ti": "50.000",
+        "td": "2.000",
+        "kff": "3.000e-06",
+        "ff_gain": "1.00",
+        "ff_bias_deg": "0.0",
+        "ff_lag_s": "0.0",
+        "xte_noise_m": "2.00",
+        "noise_seed": "4",
+        "base_rpm": "100.0",
+        "own_rpm": "94.5",
+        "fsi_split": "4x2",
+        "deriv_perturb": "0.000",
+        "deriv_seed": "1"
+      },
+      "historical_match": true,
+      "state_records": 21577,
+      "force_records": 21577,
+      "record_interval_s": 0.5,
+      "rms_recomputed_from_csv_m": 2.5631687626106707,
+      "maximum_recomputed_from_csv_m": 16.3806,
+      "summary_sampling_s": 0.5,
+      "integrator_step_s": 0.1,
+      "files": {
+        "FSI_Group4_Proposed.csv": {
+          "bytes": 4057057,
+          "sha256": "dc154fcf78279c9ad29e3cc067ec04ef4a848aa85ba1ddbe0cb446475b2c10b3"
+        },
+        "Log_Group4_Proposed.csv": {
+          "bytes": 2041924,
+          "sha256": "06f9437fb05953544b1a8d6145e9f340ef32c6d5d489b83d2c95d7ae20a4f609"
+        },
+        "stderr.txt": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout.txt": {
+          "bytes": 434,
+          "sha256": "6334b799ee459ea8cfac758c95fddc61ad544bd49743c56284ced4c4eefb9660"
+        },
+        "Summary_Group4_Proposed.txt": {
+          "bytes": 434,
+          "sha256": "6334b799ee459ea8cfac758c95fddc61ad544bd49743c56284ced4c4eefb9660"
+        }
+      }
+    },
+    {
+      "case": "noise_seed5",
+      "group": "G4",
+      "command_argv": [
+        "E:\\Desk\\department\\shuziluansheng\\shuziluansheng\\xjp\\daima\\release\\xjp_release.exe",
+        "--batch",
+        "--group",
+        "3",
+        "--out",
+        "E:\\Desk\\第二篇\\仿真复核_20261013\\runs\\noise_seed5",
+        "--max-time",
+        "16000",
+        "--xte-noise",
+        "2",
+        "--noise-seed",
+        "5"
+      ],
+      "working_directory": "E:\\Desk\\department\\shuziluansheng\\shuziluansheng\\xjp\\daima",
+      "started_at": "2026-10-13T18:55:35+08:00",
+      "expected_historical_rms_m": 2.98,
+      "expected_historical_maximum_m": 15.67,
+      "origin": "New simulation run; historical summary used only for comparison",
+      "pid": 34976,
+      "exit_code": 0,
+      "finished_at": "2026-10-13T18:58:39+08:00",
+      "wall_seconds": 184.172,
+      "summary": {
+        "group": "3",
+        "suffix": "Group4_Proposed",
+        "arrived": "1",
+        "sim_time_s": "10762.5",
+        "max_abs_xte_m": "15.67",
+        "rms_xte_m": "2.98",
+        "sum_abs_rudder_change_deg": "16700.4",
+        "shallow_water": "1",
+        "backwater_beta": "0.000",
+        "backwater_celerity_mps": "12.00",
+        "backwater_period_s": "44712",
+        "backwater_phase_deg": "0.0",
+        "kp": "8.000",
+        "ti": "50.000",
+        "td": "2.000",
+        "kff": "3.000e-06",
+        "ff_gain": "1.00",
+        "ff_bias_deg": "0.0",
+        "ff_lag_s": "0.0",
+        "xte_noise_m": "2.00",
+        "noise_seed": "5",
+        "base_rpm": "100.0",
+        "own_rpm": "94.5",
+        "fsi_split": "4x2",
+        "deriv_perturb": "0.000",
+        "deriv_seed": "1"
+      },
+      "historical_match": true,
+      "state_records": 21525,
+      "force_records": 21525,
+      "record_interval_s": 0.5,
+      "rms_recomputed_from_csv_m": 2.982574517472213,
+      "maximum_recomputed_from_csv_m": 15.6692,
+      "summary_sampling_s": 0.5,
+      "integrator_step_s": 0.1,
+      "files": {
+        "FSI_Group4_Proposed.csv": {
+          "bytes": 4048930,
+          "sha256": "de040c7807328c4ab9bd28f04eede62d5f47d8d664e5d617299b498affdb9b33"
+        },
+        "Log_Group4_Proposed.csv": {
+          "bytes": 2039574,
+          "sha256": "a073701af7164659dc568a4a7b48df3b8109dda27bec41a3798078f9f22c61b0"
+        },
+        "stderr.txt": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout.txt": {
+          "bytes": 434,
+          "sha256": "7f8c073ddfb0554ee3fe99072e710737f4e25c8b3d8d15fa581a6141153964d2"
+        },
+        "Summary_Group4_Proposed.txt": {
+          "bytes": 434,
+          "sha256": "7f8c073ddfb0554ee3fe99072e710737f4e25c8b3d8d15fa581a6141153964d2"
+        }
+      }
+    }
+  ],
+  "running_or_queued": [],
+  "finished_at": "2026-10-13T18:58:40+08:00",
+  "all_passed": true
+}

@@ -1,0 +1,6 @@
+﻿condition,legacy_command,rms_m,maximum_m,rudder_total_variation_deg,transit_s
+PERT7,100.0,10.63,95.19,12101.8,10732.0
+PERT7,105.0,3.4,26.82,11901.3,9760.5
+NOMINAL,90.0,2.24,14.29,10729.5,11458.5
+NOMINAL,85.0,2.19,12.91,11116.5,12344.5
+NOMINAL,80.0,2.19,11.8,11681.4,13381.5

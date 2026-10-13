@@ -1,0 +1,39 @@
+{
+  "source": "C:\\Users\\19259\\.claude\\projects\\C--Users-shuziluansheng-xjp-daima\\951e880a-cbb0-4f69-a8fe-11ea5f8ef245.jsonl",
+  "source_sha256": "41b677f452646dd930ede6b7f9e667e79cb3ea5791501fc9150457fd5a81dca1",
+  "outputs_recovered": 9,
+  "phase_records": 16,
+  "prior_records_excluding_superseded_noise": 7,
+  "fair_noise_group_records": 8,
+  "noise_seed_records": 5,
+  "derivative_sample_records": 32,
+  "cell_refinement_records": 8,
+  "command_alignment_records": 4,
+  "gain_records": 9,
+  "rudder_margin_records": 5,
+  "derivative_statistics_recomputed": {
+    "G4": {
+      "count": 16,
+      "median_m": 2.425,
+      "q1_m": 2.3400000000000003,
+      "q3_m": 2.5625,
+      "minimum_m": 2.12,
+      "maximum_m": 11.78
+    },
+    "G2": {
+      "count": 16,
+      "median_m": 20.64,
+      "q1_m": 20.59,
+      "q3_m": 20.6825,
+      "minimum_m": 20.57,
+      "maximum_m": 20.81
+    }
+  },
+  "paired_proposed_method_better_than_G2": true,
+  "noise_rms_mean_m": 2.75,
+  "noise_maximum_mean_m": 15.296,
+  "manuscript_tables_5_6_7": "Matched within their reported precision",
+  "stepwise_time_series": "Not recovered by this extraction",
+  "early_noise_output": "Retained for provenance only; superseded by fair-noise reruns",
+  "margin_runner_status": "Historical wrapper reports exit 255 despite five printed case summaries; no clean runner exit is inferred"
+}

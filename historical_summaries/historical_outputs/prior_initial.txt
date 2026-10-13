@@ -1,0 +1,14 @@
+perfect      max_abs_xte_m=15.48 rms_xte_m=2.29
+gain070      max_abs_xte_m=27.76 rms_xte_m=12.49
+gain130      max_abs_xte_m=30.12 rms_xte_m=11.96
+bias_p15     max_abs_xte_m=36.35 rms_xte_m=16.53
+bias_m15     max_abs_xte_m=32.43 rms_xte_m=17.11
+lag60        max_abs_xte_m=26.81 rms_xte_m=5.23
+noise2       max_abs_xte_m=12.91 rms_xte_m=2.67
+allbad       max_abs_xte_m=53.12 rms_xte_m=16.88
+g0_noise2    max_abs_xte_m=105.85 rms_xte_m=46.14
+g1_noise2    max_abs_xte_m=67.60 rms_xte_m=20.68
+g2_noise2    max_abs_xte_m=106.60 rms_xte_m=46.18
+退化实验完成
+
+[exited with code 0]

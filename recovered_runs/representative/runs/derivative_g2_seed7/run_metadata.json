@@ -1,0 +1,85 @@
+{
+  "case": "derivative_g2_seed7",
+  "group": "G2",
+  "command_argv": [
+    "E:\\Desk\\department\\shuziluansheng\\shuziluansheng\\xjp\\daima\\release\\xjp_release.exe",
+    "--batch",
+    "--group",
+    "1",
+    "--out",
+    "E:\\Desk\\第二篇\\仿真复核_20261013\\runs\\derivative_g2_seed7",
+    "--max-time",
+    "16000",
+    "--deriv-perturb",
+    "0.20",
+    "--deriv-seed",
+    "7"
+  ],
+  "working_directory": "E:\\Desk\\department\\shuziluansheng\\shuziluansheng\\xjp\\daima",
+  "started_at": "2026-10-13T18:45:37+08:00",
+  "expected_historical_rms_m": 20.77,
+  "expected_historical_maximum_m": 68.28,
+  "origin": "New simulation run; historical summary used only for comparison",
+  "pid": 29292,
+  "exit_code": 0,
+  "finished_at": "2026-10-13T18:48:49+08:00",
+  "wall_seconds": 191.438,
+  "summary": {
+    "group": "1",
+    "suffix": "Group2_ConvILOS",
+    "arrived": "1",
+    "sim_time_s": "9872.0",
+    "max_abs_xte_m": "68.28",
+    "rms_xte_m": "20.77",
+    "sum_abs_rudder_change_deg": "14768.1",
+    "shallow_water": "1",
+    "backwater_beta": "0.000",
+    "backwater_celerity_mps": "12.00",
+    "backwater_period_s": "44712",
+    "backwater_phase_deg": "0.0",
+    "kp": "8.000",
+    "ti": "50.000",
+    "td": "2.000",
+    "kff": "3.000e-06",
+    "ff_gain": "1.00",
+    "ff_bias_deg": "0.0",
+    "ff_lag_s": "0.0",
+    "xte_noise_m": "0.00",
+    "noise_seed": "1",
+    "base_rpm": "100.0",
+    "own_rpm": "94.5",
+    "fsi_split": "4x2",
+    "deriv_perturb": "0.200",
+    "deriv_seed": "7"
+  },
+  "historical_match": true,
+  "state_records": 19744,
+  "force_records": 19744,
+  "record_interval_s": 0.5,
+  "rms_recomputed_from_csv_m": 20.774831430178217,
+  "maximum_recomputed_from_csv_m": 68.2786,
+  "summary_sampling_s": 0.5,
+  "integrator_step_s": 0.1,
+  "files": {
+    "FSI_Group2_ConvILOS.csv": {
+      "bytes": 3693733,
+      "sha256": "a58d750e437819a8a8a66fdec78c70999e7db743021c437d82eb3c1f5a97f105"
+    },
+    "Log_Group2_ConvILOS.csv": {
+      "bytes": 1884248,
+      "sha256": "390c217db80ac90b39581dbd582cd90ad0a793ddcbedda95d18a735aa4e62916"
+    },
+    "stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stdout.txt": {
+      "bytes": 528,
+      "sha256": "6b5cfea8ef88b6c3fe9176b5b9f63dd649d272c65afc6a1852a21bbddbcc8300"
+    },
+    "Summary_Group2_ConvILOS.txt": {
+      "bytes": 434,
+      "sha256": "297a7841dd443831b20ee36d1fdb99cb6af9edfc0baed742534f1f4cb59b4a89"
+    }
+  }
+}

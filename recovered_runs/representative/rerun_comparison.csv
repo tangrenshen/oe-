@@ -1,0 +1,16 @@
+﻿case,group,historical_rms_m,rerun_rms_m,historical_maximum_m,rerun_maximum_m,matches,exit_code,state_records
+derivative_g2_seed7,G2,20.77,20.77,68.28,68.28,True,0,19744
+derivative_g4_seed7_q100,G4,10.63,10.63,95.19,95.19,True,0,21464
+derivative_g4_seed7_q105,G4,3.4,3.40,26.82,26.82,True,0,19521
+derivative_g4_seed7_q94_5,G4,11.78,11.78,96.88,96.88,True,0,23065
+noise_seed1,G4,2.67,2.67,12.91,12.91,True,0,21496
+noise_seed2,G4,2.96,2.96,19.11,19.11,True,0,21604
+noise_seed3,G4,2.58,2.58,12.41,12.41,True,0,21527
+noise_seed4,G4,2.56,2.56,16.38,16.38,True,0,21577
+noise_seed5,G4,2.98,2.98,15.67,15.67,True,0,21525
+prior_bias_m15,G4,17.11,17.11,32.43,32.43,True,0,21655
+prior_bias_p15,G4,16.53,16.53,36.35,36.35,True,0,21469
+prior_combined,G4,16.88,16.88,53.12,53.12,True,0,21482
+prior_gain070,G4,12.49,12.49,27.76,27.76,True,0,21367
+prior_gain130,G4,11.96,11.96,30.12,30.12,True,0,21713
+prior_lag60,G4,5.23,5.23,26.81,26.81,True,0,21539

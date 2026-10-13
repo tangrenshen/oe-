@@ -1,0 +1,7 @@
+组4 @100rpm  sim_time_s=10008.0 max_abs_xte_m=16.41 rms_xte_m=2.31 sum_abs_rudder_change_deg=9932.0
+组1 @94.5rpm  sim_time_s=10464.0 max_abs_xte_m=109.83 rms_xte_m=48.40
+组2 @94.5rpm  sim_time_s=10588.5 max_abs_xte_m=71.97 rms_xte_m=22.51
+组3 @94.5rpm  sim_time_s=10461.5 max_abs_xte_m=110.77 rms_xte_m=48.46
+完成
+
+[exited with code 0]

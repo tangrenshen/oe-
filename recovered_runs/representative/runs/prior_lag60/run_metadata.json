@@ -1,0 +1,83 @@
+{
+  "case": "prior_lag60",
+  "group": "G4",
+  "command_argv": [
+    "E:\\Desk\\department\\shuziluansheng\\shuziluansheng\\xjp\\daima\\release\\xjp_release.exe",
+    "--batch",
+    "--group",
+    "3",
+    "--out",
+    "E:\\Desk\\第二篇\\仿真复核_20261013\\runs\\prior_lag60",
+    "--max-time",
+    "16000",
+    "--ff-lag",
+    "60"
+  ],
+  "working_directory": "E:\\Desk\\department\\shuziluansheng\\shuziluansheng\\xjp\\daima",
+  "started_at": "2026-10-13T18:52:06+08:00",
+  "expected_historical_rms_m": 5.23,
+  "expected_historical_maximum_m": 26.81,
+  "origin": "New simulation run; historical summary used only for comparison",
+  "pid": 3320,
+  "exit_code": 0,
+  "finished_at": "2026-10-13T18:55:24+08:00",
+  "wall_seconds": 198.109,
+  "summary": {
+    "group": "3",
+    "suffix": "Group4_Proposed",
+    "arrived": "1",
+    "sim_time_s": "10769.5",
+    "max_abs_xte_m": "26.81",
+    "rms_xte_m": "5.23",
+    "sum_abs_rudder_change_deg": "10100.3",
+    "shallow_water": "1",
+    "backwater_beta": "0.000",
+    "backwater_celerity_mps": "12.00",
+    "backwater_period_s": "44712",
+    "backwater_phase_deg": "0.0",
+    "kp": "8.000",
+    "ti": "50.000",
+    "td": "2.000",
+    "kff": "3.000e-06",
+    "ff_gain": "1.00",
+    "ff_bias_deg": "0.0",
+    "ff_lag_s": "60.0",
+    "xte_noise_m": "0.00",
+    "noise_seed": "1",
+    "base_rpm": "100.0",
+    "own_rpm": "94.5",
+    "fsi_split": "4x2",
+    "deriv_perturb": "0.000",
+    "deriv_seed": "1"
+  },
+  "historical_match": true,
+  "state_records": 21539,
+  "force_records": 21539,
+  "record_interval_s": 0.5,
+  "rms_recomputed_from_csv_m": 5.231384729620618,
+  "maximum_recomputed_from_csv_m": 26.8129,
+  "summary_sampling_s": 0.5,
+  "integrator_step_s": 0.1,
+  "files": {
+    "FSI_Group4_Proposed.csv": {
+      "bytes": 4048373,
+      "sha256": "6f3f1761f0c72d1c9efcd9997f967c703ba66695d2794609b21d0e4efc42c669"
+    },
+    "Log_Group4_Proposed.csv": {
+      "bytes": 2040100,
+      "sha256": "5ef53797d65922a23174dfc65f986f29f2b1a5c2895ad19c511202510e781d44"
+    },
+    "stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stdout.txt": {
+      "bytes": 435,
+      "sha256": "7d033d02d0a017a4a1529c156a649d417df3a425dfb95890c263a1288ecaa6ed"
+    },
+    "Summary_Group4_Proposed.txt": {
+      "bytes": 435,
+      "sha256": "7d033d02d0a017a4a1529c156a649d417df3a425dfb95890c263a1288ecaa6ed"
+    }
+  }
+}

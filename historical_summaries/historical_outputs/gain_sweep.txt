@@ -1,0 +1,12 @@
+g0 kp8   rms_xte_m=46.11 sum_abs_rudder_change_deg=9178.9
+g0 kp15  rms_xte_m=46.14 sum_abs_rudder_change_deg=14413.0
+g0 kp25  rms_xte_m=46.21 sum_abs_rudder_change_deg=20542.3
+g1 kp8   rms_xte_m=20.53 sum_abs_rudder_change_deg=9679.6
+g1 kp15  rms_xte_m=20.68 sum_abs_rudder_change_deg=14702.6
+g1 kp25  rms_xte_m=20.73 sum_abs_rudder_change_deg=20817.1
+g2 kp8   rms_xte_m=46.18 sum_abs_rudder_change_deg=9347.9
+g2 kp15  rms_xte_m=45.94 sum_abs_rudder_change_deg=14514.7
+g2 kp25  rms_xte_m=45.88 sum_abs_rudder_change_deg=20425.7
+完成
+
+[exited with code 0]

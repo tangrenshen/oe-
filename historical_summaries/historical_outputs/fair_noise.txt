@@ -1,0 +1,17 @@
+g0 clean   max_abs_xte_m=105.85 rms_xte_m=46.14
+g0 noise2  max_abs_xte_m=106.99 rms_xte_m=46.70
+g1 clean   max_abs_xte_m=67.58 rms_xte_m=20.68
+g1 noise2  max_abs_xte_m=68.66 rms_xte_m=21.29
+g2 clean   max_abs_xte_m=106.60 rms_xte_m=46.18
+g2 noise2  max_abs_xte_m=107.27 rms_xte_m=46.69
+g3 clean   max_abs_xte_m=15.48 rms_xte_m=2.29
+g3 noise2  max_abs_xte_m=12.91 rms_xte_m=2.67
+--- 组4 多种子噪声 ---
+seed1   max_abs_xte_m=12.91 rms_xte_m=2.67
+seed2   max_abs_xte_m=19.11 rms_xte_m=2.96
+seed3   max_abs_xte_m=12.41 rms_xte_m=2.58
+seed4   max_abs_xte_m=16.38 rms_xte_m=2.56
+seed5   max_abs_xte_m=15.67 rms_xte_m=2.98
+完成
+
+[exited with code 0]

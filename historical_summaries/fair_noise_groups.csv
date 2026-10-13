@@ -1,0 +1,9 @@
+﻿group,condition,rms_m,maximum_m
+G1,clean,46.14,105.85
+G1,noise2,46.7,106.99
+G2,clean,20.68,67.58
+G2,noise2,21.29,68.66
+G3,clean,46.18,106.6
+G3,noise2,46.69,107.27
+G4,clean,2.29,15.48
+G4,noise2,2.67,12.91

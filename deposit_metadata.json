@@ -18,7 +18,7 @@
       "affiliation": "Wuhan University of Technology"
     }
   ],
-  "version": "1.0-draft",
+  "version": "1.1-draft",
   "publication_date": "2026-10-13",
   "resource_type": "dataset",
   "language": "en",
@@ -29,7 +29,7 @@
     "tidal backwater",
     "MMG"
   ],
-  "description": "Eight manuscript tables, reconstructed-current exports, preserved computational sources, experiment notes, and four newly recovered full-route steady-field records. The steady runs reproduce all reported RMS and maximum errors. Original phase, information-error, derivative-perturbation, and cell-refinement time series were not retained; their values are explicitly marked as manuscript-level summaries. No observational current dataset is included.",
+  "description": "Eight manuscript tables, reconstructed-current exports, preserved computational sources, selected historical experiment outputs and parsed CSVs, and nineteen newly repeated full-route records: four steady cases and fifteen representative derivative, command-margin, current-prior, and noise cases. All rerun RMS and maximum errors match historical values at reported precision. Historical derivative summaries include all 32 paired G2/G4 samples. Missing time series for remaining derivative seeds, phases, refinement, and complete sweeps are identified explicitly. No observational current dataset is included.",
   "repository_url": "https://github.com/tangrenshen/oe-",
   "repository_status": "GitHub companion-data repository provisioned; retained data and archive limitations are documented in README.md. No DOI assigned.",
   "contact": "Yifan Li, 1925944576@qq.com"

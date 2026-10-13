@@ -1,0 +1,8 @@
+﻿condition,rms_m,maximum_m
+perfect,2.29,15.48
+gain070,12.49,27.76
+gain130,11.96,30.12
+bias_p15,16.53,36.35
+bias_m15,17.11,32.43
+lag60,5.23,26.81
+allbad,16.88,53.12
