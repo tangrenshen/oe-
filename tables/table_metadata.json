@@ -234,7 +234,7 @@
         "10763"
       ]
     ],
-    "note": "Nominal propulsion commands: q_c = 100 for G1–G3 and 94.5 for G4. Rudder variation is accumulated at 0.1 s control steps."
+    "note": "Nominal propulsion commands: q_c = 100 for G1–G3 and 94.5 for G4. Rudder variation is accumulated at 0.5 s frame intervals."
   },
   {
     "label": "phases",
@@ -342,7 +342,7 @@
         "7.4"
       ]
     ],
-    "note": "The noise-only RMS value is the mean over five seeds. The combined case uses magnitude −30%, direction +15°, lag 60 s, and σ = 2 m noise. Maximum-error averaging for the noise-only row follows the retained manuscript summary; individual seed time series must be restored to recompute it."
+    "note": "The noise-only RMS and maximum-error values are means over five seeds. The combined case uses magnitude −30%, direction +15°, lag 60 s, and σ = 2 m noise."
   },
   {
     "label": "derivatives",

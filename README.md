@@ -70,6 +70,8 @@ Integration and control use 0.1 s steps. Summary RMS, maximum error, and rudder 
 
 The diagnostic crab angle is the recorded heading minus course over ground; it is not the controller's commanded feedforward angle. Fixed-bend diagnostics use planned-route chainage 35.3–37.4 km. The historical 80%/55% near-limit rudder percentages instead used all samples with absolute error above 20 m; these conditionally selected samples differ in location between cases. The fixed-bend comparison gives 87.6%/25.5% for commands 94.5/105, using a 34-degree near-limit threshold. Both definitions are retained in `diagnostic_metrics.json` to avoid mixing them.
 
+Retained historical experiment notes in `provenance/` preserve their original wording and can contain these superseded interpretations. The sampling definition above and the repeated-run diagnostic definitions in `diagnostics/README.md` give the corrected interpretation; historical summaries and numerical results are unchanged.
+
 ## Deposit
 
 This repository is intended for public access to the retained companion data. Its contents are not a complete archive of all manuscript experiment time series; the missing records are listed above. A GitHub URL is not a DOI. Mendeley Data or a Zenodo archive of a GitHub release can provide a persistent dataset DOI. Use `deposit_metadata.json` as a starting point and check the inventory before release. Select a data license at deposit; existing source-code license notices, including QCustomPlot's notices, remain applicable. Cite the actual repository URL and commit, and replace or supplement that citation with the real archived version and DOI when available.
