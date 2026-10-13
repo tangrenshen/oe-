@@ -5,3 +5,4 @@ private_inputs/
 *.dll
 *.obj
 __pycache__/
+recovered_runs/smoke/

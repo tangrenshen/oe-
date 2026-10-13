@@ -7,7 +7,7 @@ import zipfile
 
 
 ROOT = Path(__file__).resolve().parents[1]
-EXCLUDED = {".git", "build_source", "private_inputs", "__pycache__"}
+EXCLUDED = {".git", "build_source", "private_inputs", "__pycache__", "smoke"}
 
 
 def included(path):
