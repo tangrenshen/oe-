@@ -1,0 +1,5 @@
+﻿Group,RMS error (m),Maximum error (m),Rudder variation (°),Transit (s)
+G1: fixed LOS + PID,46.14,105.85,14416,9765
+G2: conventional ILOS,20.68,67.58,14704,9862
+G3: LOS + moment feedforward,46.18,106.60,9348,9764
+G4: proposed,2.29,15.48,10407,10763

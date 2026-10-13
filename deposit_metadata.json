@@ -1,0 +1,36 @@
+{
+  "title": "Current reconstruction and adaptive ship path following in Yingongzhou: companion simulation data",
+  "creators": [
+    {
+      "name": "Li, Yifan",
+      "affiliation": "Wuhan University of Technology"
+    },
+    {
+      "name": "He, Yixiong",
+      "affiliation": "Wuhan University of Technology"
+    },
+    {
+      "name": "Zhang, Kun",
+      "affiliation": "Wuhan University of Technology"
+    },
+    {
+      "name": "Liu, Wenlu",
+      "affiliation": "Wuhan University of Technology"
+    }
+  ],
+  "version": "1.0-draft",
+  "publication_date": "2026-10-13",
+  "resource_type": "dataset",
+  "language": "en",
+  "keywords": [
+    "ship path following",
+    "Yingongzhou",
+    "current reconstruction",
+    "tidal backwater",
+    "MMG"
+  ],
+  "description": "Eight manuscript tables, reconstructed-current exports, preserved computational sources, experiment notes, and four newly recovered full-route steady-field records. The steady runs reproduce all reported RMS and maximum errors. Original phase, information-error, derivative-perturbation, and cell-refinement time series were not retained; their values are explicitly marked as manuscript-level summaries. No observational current dataset is included.",
+  "repository_url": "https://github.com/tangrenshen/oe-",
+  "repository_status": "GitHub companion-data repository provisioned; retained data and archive limitations are documented in README.md. No DOI assigned.",
+  "contact": "Yifan Li, 1925944576@qq.com"
+}

@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Please cite this companion dataset using the repository URL and the exact commit. An archived release DOI is not yet available."
+title: "Current reconstruction and adaptive ship path following in Yingongzhou: companion simulation data"
+type: dataset
+version: "1.0-draft"
+date-released: "2026-10-13"
+url: "https://github.com/tangrenshen/oe-"
+repository-code: "https://github.com/tangrenshen/oe-"
+authors:
+  - family-names: Li
+    given-names: Yifan
+  - family-names: He
+    given-names: Yixiong
+  - family-names: Zhang
+    given-names: Kun
+  - family-names: Liu
+    given-names: Wenlu

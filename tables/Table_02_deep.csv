@@ -1,0 +1,8 @@
+﻿Quantity,Present,Reference calculation,Difference (%),Experiment,Difference (%)
+"AD′, 35° turn, L = 7 m",3.28,3.31,−0.9,3.25,+0.9
+"DT′, 35° turn, L = 7 m",3.27,3.36,−2.7,3.34,−2.2
+"AD′, full scale L = 320 m",3.56,3.62,−1.7,—,—
+"DT′, full scale L = 320 m",3.55,3.71,−4.4,—,—
+"10/10 zigzag, first overshoot (°)",5.57,5.20,+7.1,8.20,−32.1
+"20/20 zigzag, first overshoot (°)",12.16,10.90,+11.5,13.70,−11.3
+"10/10 zigzag, second overshoot (°)",15.94,15.80,+0.9,21.90,−27.2

@@ -1,0 +1,427 @@
+[
+  {
+    "label": "scales",
+    "caption": "Information scales, cell spacing, and sampled current variation across the hull.",
+    "headers": [
+      "Quantity",
+      "Value",
+      "Interpretation"
+    ],
+    "rows": [
+      [
+        "Longitudinal cell spacing",
+        "40 m",
+        "Four equal segments over L = 160 m"
+      ],
+      [
+        "Transverse cell spacing",
+        "14.5 m",
+        "Two columns over B = 29 m"
+      ],
+      [
+        "Nearest-neighbour sounding spacing",
+        "287 m (median)",
+        "608 soundings in the reach"
+      ],
+      [
+        "Adjacent-anchor spacing",
+        "5.2 km (median)",
+        "Nine virtual current anchors"
+      ],
+      [
+        "Active kernel length scale",
+        "Twice median spacing",
+        "Clipped to 2–100 km; depth multiplier = 0.02 times the scale in metres"
+      ],
+      [
+        "Eight-cell speed spread",
+        "0.31% (median)",
+        "Maximum 4.59% of local speed"
+      ],
+      [
+        "Eight-cell direction spread",
+        "1.92° (median)",
+        "90th percentile 6.70°; maximum 16.86°"
+      ],
+      [
+        "Bow–stern direction difference",
+        "1.06° (median)",
+        "120 m centre separation"
+      ],
+      [
+        "Port–starboard direction difference",
+        "0.24° (median)",
+        "14.5 m centre separation"
+      ]
+    ],
+    "note": "Current spreads are sampled from the reconstructed field, not measured at hull scale."
+  },
+  {
+    "label": "deep",
+    "caption": "Deep-water KVLCC2 implementation check against Yasukawa and Yoshimura (2015).",
+    "headers": [
+      "Quantity",
+      "Present",
+      "Reference calculation",
+      "Difference (%)",
+      "Experiment",
+      "Difference (%)"
+    ],
+    "rows": [
+      [
+        "AD′, 35° turn, L = 7 m",
+        "3.28",
+        "3.31",
+        "−0.9",
+        "3.25",
+        "+0.9"
+      ],
+      [
+        "DT′, 35° turn, L = 7 m",
+        "3.27",
+        "3.36",
+        "−2.7",
+        "3.34",
+        "−2.2"
+      ],
+      [
+        "AD′, full scale L = 320 m",
+        "3.56",
+        "3.62",
+        "−1.7",
+        "—",
+        "—"
+      ],
+      [
+        "DT′, full scale L = 320 m",
+        "3.55",
+        "3.71",
+        "−4.4",
+        "—",
+        "—"
+      ],
+      [
+        "10/10 zigzag, first overshoot (°)",
+        "5.57",
+        "5.20",
+        "+7.1",
+        "8.20",
+        "−32.1"
+      ],
+      [
+        "20/20 zigzag, first overshoot (°)",
+        "12.16",
+        "10.90",
+        "+11.5",
+        "13.70",
+        "−11.3"
+      ],
+      [
+        "10/10 zigzag, second overshoot (°)",
+        "15.94",
+        "15.80",
+        "+0.9",
+        "21.90",
+        "−27.2"
+      ]
+    ],
+    "note": "AD′ = advance/L; DT′ = tactical diameter/L. Differences use the reference calculation or experiment in the adjacent column."
+  },
+  {
+    "label": "shallow",
+    "caption": "Shallow-water KVLCC2 benchmark comparison at h/d = 1.2. The present calculations use 3.60 m/s (7 kn).",
+    "headers": [
+      "Quantity",
+      "Present",
+      "FHR / free-running reference",
+      "Other prediction"
+    ],
+    "rows": [
+      [
+        "Self-propulsion rate (s⁻¹)",
+        "0.764 (calibrated)",
+        "0.805 predicted; 0.77 measured",
+        "—"
+      ],
+      [
+        "DT′",
+        "4.44",
+        "≈4.5",
+        "≈3.3"
+      ],
+      [
+        "AD′",
+        "3.73",
+        "≈3.1",
+        "—"
+      ],
+      [
+        "Speed ratio at t′ = 10",
+        "0.67",
+        "—",
+        "0.72–0.75"
+      ],
+      [
+        "Drift angle at t′ = 10 (°)",
+        "4.2",
+        "—",
+        "3–4"
+      ],
+      [
+        "20/5 zigzag, first extremum (°)",
+        "8.66",
+        "9.73 (SD 3.5%)",
+        "—"
+      ],
+      [
+        "20/5 zigzag, second extremum (°)",
+        "12.13",
+        "13.19 (SD 3.1%)",
+        "—"
+      ],
+      [
+        "10/2.5 zigzag, first extremum (°)",
+        "3.99",
+        "3.80 (SD 15.3%)",
+        "—"
+      ],
+      [
+        "10/2.5 zigzag, second extremum (°)",
+        "5.66",
+        "8.78 (SD 10.9%)",
+        "—"
+      ]
+    ],
+    "note": "FHR predictions and self-propulsion data: Delefortrie et al. (2019). Other prediction: Taimuri et al. (2020). Measured heading extrema and relative standard deviations: Eloot et al. (2015). Turning indices are predictions; zigzag comparisons are not at verified identical approach conditions. t′ = tU₀/L."
+  },
+  {
+    "label": "steady",
+    "caption": "Full-route results in the steady current field, with the nominal vessel model and exact current prior.",
+    "headers": [
+      "Group",
+      "RMS error (m)",
+      "Maximum error (m)",
+      "Rudder variation (°)",
+      "Transit (s)"
+    ],
+    "rows": [
+      [
+        "G1: fixed LOS + PID",
+        "46.14",
+        "105.85",
+        "14416",
+        "9765"
+      ],
+      [
+        "G2: conventional ILOS",
+        "20.68",
+        "67.58",
+        "14704",
+        "9862"
+      ],
+      [
+        "G3: LOS + moment feedforward",
+        "46.18",
+        "106.60",
+        "9348",
+        "9764"
+      ],
+      [
+        "G4: proposed",
+        "2.29",
+        "15.48",
+        "10407",
+        "10763"
+      ]
+    ],
+    "note": "Nominal propulsion commands: q_c = 100 for G1–G3 and 94.5 for G4. Rudder variation is accumulated at 0.1 s control steps."
+  },
+  {
+    "label": "phases",
+    "caption": "RMS cross-track error (m) across departure phases, with b = 0.40 and c = 15 m/s.",
+    "headers": [
+      "Group",
+      "0°",
+      "90°",
+      "180°",
+      "270°",
+      "Range"
+    ],
+    "rows": [
+      [
+        "G1",
+        "40.09",
+        "33.24",
+        "53.25",
+        "59.07",
+        "25.83"
+      ],
+      [
+        "G2",
+        "15.68",
+        "12.20",
+        "27.30",
+        "31.53",
+        "19.33"
+      ],
+      [
+        "G3",
+        "40.07",
+        "33.17",
+        "53.26",
+        "58.99",
+        "25.82"
+      ],
+      [
+        "G4",
+        "2.36",
+        "2.38",
+        "2.31",
+        "1.99",
+        "0.39"
+      ]
+    ],
+    "note": "Range is the largest minus the smallest RMS error across the four phase runs."
+  },
+  {
+    "label": "prior",
+    "caption": "G4 sensitivity to degraded information in the steady current field.",
+    "headers": [
+      "Information condition",
+      "RMS error (m)",
+      "Maximum error (m)",
+      "Nominal ratio"
+    ],
+    "rows": [
+      [
+        "Exact current prior",
+        "2.29",
+        "15.48",
+        "1.0"
+      ],
+      [
+        "Magnitude error −30%",
+        "12.49",
+        "27.76",
+        "5.5"
+      ],
+      [
+        "Magnitude error +30%",
+        "11.96",
+        "30.12",
+        "5.2"
+      ],
+      [
+        "Direction bias +15°",
+        "16.53",
+        "36.35",
+        "7.2"
+      ],
+      [
+        "Direction bias −15°",
+        "17.11",
+        "32.43",
+        "7.5"
+      ],
+      [
+        "Spatial-prior lag 60 s",
+        "5.23",
+        "26.81",
+        "2.3"
+      ],
+      [
+        "Correlated measurement noise, σ = 2 m",
+        "2.75",
+        "15.3",
+        "1.2"
+      ],
+      [
+        "Combined information errors",
+        "16.88",
+        "53.12",
+        "7.4"
+      ]
+    ],
+    "note": "The noise-only RMS value is the mean over five seeds. The combined case uses magnitude −30%, direction +15°, lag 60 s, and σ = 2 m noise. Maximum-error averaging for the noise-only row follows the retained manuscript summary; individual seed time series must be restored to recompute it."
+  },
+  {
+    "label": "derivatives",
+    "caption": "Independent ±20% derivative perturbations in the steady field: 16 paired parameter sets.",
+    "headers": [
+      "Method",
+      "Nominal (m)",
+      "Median (m)",
+      "IQR (m)",
+      "Range (m)",
+      "Arrived"
+    ],
+    "rows": [
+      [
+        "G4: proposed",
+        "2.29",
+        "2.42",
+        "2.34–2.56",
+        "2.12–11.78",
+        "16/16"
+      ],
+      [
+        "G2: conventional ILOS",
+        "20.68",
+        "20.64",
+        "20.59–20.68",
+        "20.57–20.81",
+        "16/16"
+      ]
+    ],
+    "note": "IQR denotes the interquartile interval. Arrival does not imply a formal stability guarantee."
+  },
+  {
+    "label": "commands",
+    "caption": "Propulsion-command alignment in the steady field.",
+    "headers": [
+      "Configuration",
+      "RMS error (m)",
+      "Maximum error (m)",
+      "Transit (s)"
+    ],
+    "rows": [
+      [
+        "G4, q_c = 94.5 (nominal)",
+        "2.29",
+        "15.48",
+        "10763"
+      ],
+      [
+        "G4, q_c = 100",
+        "2.31",
+        "16.41",
+        "10008"
+      ],
+      [
+        "G1, q_c = 100 (nominal)",
+        "46.14",
+        "105.85",
+        "9765"
+      ],
+      [
+        "G1, q_c = 94.5",
+        "48.40",
+        "109.83",
+        "10464"
+      ],
+      [
+        "G2, q_c = 94.5",
+        "22.51",
+        "71.97",
+        "10589"
+      ],
+      [
+        "G3, q_c = 94.5",
+        "48.46",
+        "110.77",
+        "10462"
+      ]
+    ],
+    "note": "q_c is the legacy propulsion-command setting, not physical propeller rpm; the model converts it to n_P in s⁻¹ through a self-propulsion calculation."
+  }
+]

@@ -1,0 +1,9 @@
+﻿Information condition,RMS error (m),Maximum error (m),Nominal ratio
+Exact current prior,2.29,15.48,1.0
+Magnitude error −30%,12.49,27.76,5.5
+Magnitude error +30%,11.96,30.12,5.2
+Direction bias +15°,16.53,36.35,7.2
+Direction bias −15°,17.11,32.43,7.5
+Spatial-prior lag 60 s,5.23,26.81,2.3
+"Correlated measurement noise, σ = 2 m",2.75,15.3,1.2
+Combined information errors,16.88,53.12,7.4

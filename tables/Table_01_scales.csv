@@ -1,0 +1,10 @@
+﻿Quantity,Value,Interpretation
+Longitudinal cell spacing,40 m,Four equal segments over L = 160 m
+Transverse cell spacing,14.5 m,Two columns over B = 29 m
+Nearest-neighbour sounding spacing,287 m (median),608 soundings in the reach
+Adjacent-anchor spacing,5.2 km (median),Nine virtual current anchors
+Active kernel length scale,Twice median spacing,Clipped to 2–100 km; depth multiplier = 0.02 times the scale in metres
+Eight-cell speed spread,0.31% (median),Maximum 4.59% of local speed
+Eight-cell direction spread,1.92° (median),90th percentile 6.70°; maximum 16.86°
+Bow–stern direction difference,1.06° (median),120 m centre separation
+Port–starboard direction difference,0.24° (median),14.5 m centre separation
