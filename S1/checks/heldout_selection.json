@@ -1,0 +1,42 @@
+[
+  {
+    "mode": "baseline",
+    "threshold": 1.85,
+    "feasible": true,
+    "name": "scan_baseline_kp8_ti90_nominal",
+    "kp": 8.0,
+    "ti": 90.0,
+    "rms_m": 1.7946455912829917,
+    "rudder_tv_deg": 8747.5
+  },
+  {
+    "mode": "baseline",
+    "threshold": 2.5,
+    "feasible": true,
+    "name": "scan_baseline_kp8_ti90_nominal",
+    "kp": 8.0,
+    "ti": 90.0,
+    "rms_m": 1.7946455912829917,
+    "rudder_tv_deg": 8747.5
+  },
+  {
+    "mode": "shared",
+    "threshold": 1.85,
+    "feasible": true,
+    "name": "scan_shared_kp12_ti90_nominal",
+    "kp": 12.0,
+    "ti": 90.0,
+    "rms_m": 1.830422324281158,
+    "rudder_tv_deg": 12130.1
+  },
+  {
+    "mode": "shared",
+    "threshold": 2.5,
+    "feasible": true,
+    "name": "scan_shared_kp8_ti90_nominal",
+    "kp": 8.0,
+    "ti": 90.0,
+    "rms_m": 2.1856014446213594,
+    "rudder_tv_deg": 9356.3
+  }
+]

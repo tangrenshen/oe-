@@ -1,0 +1,78 @@
+{
+  "frozen_at": "2026-11-11T12:15:10+08:00",
+  "selected": {
+    "ilos": {
+      "candidate": 7,
+      "params": {
+        "lookahead": 3.0,
+        "ki": 0.03,
+        "cap": 120.0,
+        "kp": 22.0,
+        "ti": 90.0,
+        "td": 2.0
+      },
+      "score": [
+        0,
+        6.882264924791548,
+        6.882264924791548,
+        15814.799999999997
+      ]
+    },
+    "ilos_crab": {
+      "candidate": 4,
+      "params": {
+        "lookahead": 3.0,
+        "ki": 0.01,
+        "cap": 40.0,
+        "kp": 22.0,
+        "ti": 90.0,
+        "td": 2.0
+      },
+      "score": [
+        0,
+        1.9662977272434685,
+        1.6945926876157344,
+        17941.8
+      ]
+    },
+    "proposed": {
+      "candidate": 8,
+      "params": {
+        "kp": 15.0,
+        "ti": 50.0,
+        "td": 2.0,
+        "kff": 3e-06
+      },
+      "score": [
+        0,
+        6.308086852105399,
+        3.429384303876011,
+        13978.033333333333
+      ]
+    }
+  },
+  "selection_cases": [
+    {
+      "name": "nominal",
+      "gain": 1.0,
+      "bias": 0.0,
+      "lag": 0.0,
+      "phase": null
+    },
+    {
+      "name": "gain085",
+      "gain": 0.85,
+      "bias": 0.0,
+      "lag": 0.0,
+      "phase": null
+    },
+    {
+      "name": "lag10",
+      "gain": 1.0,
+      "bias": 0.0,
+      "lag": 10,
+      "phase": null
+    }
+  ],
+  "protocol_sha256": "a2214c8f6e31480289f40da12a1202f902b6b42f14411ad632d5dbc4e1c32fcd"
+}

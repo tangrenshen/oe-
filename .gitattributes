@@ -1,2 +1,2 @@
-# Preserve the byte-exact scientific archive so manifest hashes survive checkout.
+# Preserve the bytes covered by the dataset checksums.
 * -text

@@ -1,8 +1,0 @@
-build_source/
-private_inputs/
-*.db
-*.exe
-*.dll
-*.obj
-__pycache__/
-recovered_runs/smoke/

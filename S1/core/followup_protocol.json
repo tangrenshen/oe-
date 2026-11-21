@@ -1,0 +1,259 @@
+{
+  "created_at": "2026-11-18T14:44:19+08:00",
+  "frozen_configs": [
+    {
+      "id": "base_kp12.0_ki0p01",
+      "mode": "baseline",
+      "kp": 12.0,
+      "ti": 90.0,
+      "td": 2.0,
+      "lookahead": 3.0,
+      "ki": 0.01,
+      "cap": 40.0
+    },
+    {
+      "id": "base_kp12.0_ki0p02",
+      "mode": "baseline",
+      "kp": 12.0,
+      "ti": 90.0,
+      "td": 2.0,
+      "lookahead": 3.0,
+      "ki": 0.02,
+      "cap": 40.0
+    },
+    {
+      "id": "base_kp15.0_ki0p01",
+      "mode": "baseline",
+      "kp": 15.0,
+      "ti": 90.0,
+      "td": 2.0,
+      "lookahead": 3.0,
+      "ki": 0.01,
+      "cap": 40.0
+    },
+    {
+      "id": "base_kp15.0_ki0p02",
+      "mode": "baseline",
+      "kp": 15.0,
+      "ti": 90.0,
+      "td": 2.0,
+      "lookahead": 3.0,
+      "ki": 0.02,
+      "cap": 40.0
+    },
+    {
+      "id": "prop_kp12.0_rate1.0",
+      "mode": "shared",
+      "kp": 12.0,
+      "ti": 50.0,
+      "td": 2.0,
+      "kff": 3e-06,
+      "rate": 1.0
+    },
+    {
+      "id": "prop_kp12.0_rate30.0",
+      "mode": "shared",
+      "kp": 12.0,
+      "ti": 50.0,
+      "td": 2.0,
+      "kff": 3e-06,
+      "rate": 30.0
+    },
+    {
+      "id": "prop_kp15.0_rate1.0",
+      "mode": "shared",
+      "kp": 15.0,
+      "ti": 50.0,
+      "td": 2.0,
+      "kff": 3e-06,
+      "rate": 1.0
+    },
+    {
+      "id": "prop_kp15.0_rate30.0",
+      "mode": "shared",
+      "kp": 15.0,
+      "ti": 50.0,
+      "td": 2.0,
+      "kff": 3e-06,
+      "rate": 30.0
+    }
+  ],
+  "scenarios": [
+    {
+      "name": "gain075",
+      "gain": 0.75,
+      "bias": 0.0,
+      "lag": 0.0,
+      "phase": null,
+      "noise": 0.0,
+      "seed": 1,
+      "history": "previously_examined"
+    },
+    {
+      "name": "gain125",
+      "gain": 1.25,
+      "bias": 0.0,
+      "lag": 0.0,
+      "phase": null,
+      "noise": 0.0,
+      "seed": 1,
+      "history": "previously_examined"
+    },
+    {
+      "name": "dirm10",
+      "gain": 1.0,
+      "bias": -10.0,
+      "lag": 0.0,
+      "phase": null,
+      "noise": 0.0,
+      "seed": 1,
+      "history": "previously_examined"
+    },
+    {
+      "name": "dir10",
+      "gain": 1.0,
+      "bias": 10.0,
+      "lag": 0.0,
+      "phase": null,
+      "noise": 0.0,
+      "seed": 1,
+      "history": "previously_examined"
+    },
+    {
+      "name": "lag10",
+      "gain": 1.0,
+      "bias": 0.0,
+      "lag": 10.0,
+      "phase": null,
+      "noise": 0.0,
+      "seed": 1,
+      "history": "used_in_archived_tuning_not_this_round"
+    },
+    {
+      "name": "lag20",
+      "gain": 1.0,
+      "bias": 0.0,
+      "lag": 20.0,
+      "phase": null,
+      "noise": 0.0,
+      "seed": 1,
+      "history": "examined_in_archived_full_prior"
+    },
+    {
+      "name": "lag40",
+      "gain": 1.0,
+      "bias": 0.0,
+      "lag": 40.0,
+      "phase": null,
+      "noise": 0.0,
+      "seed": 1,
+      "history": "examined_in_archived_full_prior"
+    },
+    {
+      "name": "phase45",
+      "gain": 1.0,
+      "bias": 0.0,
+      "lag": 0.0,
+      "phase": 45.0,
+      "noise": 0.0,
+      "seed": 1,
+      "history": "examined_in_manuscript_table6"
+    },
+    {
+      "name": "phase135",
+      "gain": 1.0,
+      "bias": 0.0,
+      "lag": 0.0,
+      "phase": 135.0,
+      "noise": 0.0,
+      "seed": 1,
+      "history": "examined_in_manuscript_table6"
+    },
+    {
+      "name": "phase225",
+      "gain": 1.0,
+      "bias": 0.0,
+      "lag": 0.0,
+      "phase": 225.0,
+      "noise": 0.0,
+      "seed": 1,
+      "history": "examined_in_manuscript_table6"
+    },
+    {
+      "name": "phase315",
+      "gain": 1.0,
+      "bias": 0.0,
+      "lag": 0.0,
+      "phase": 315.0,
+      "noise": 0.0,
+      "seed": 1,
+      "history": "examined_in_manuscript_table6"
+    },
+    {
+      "name": "phase135_lag40",
+      "gain": 1.0,
+      "bias": 0.0,
+      "lag": 40.0,
+      "phase": 135.0,
+      "noise": 0.0,
+      "seed": 1,
+      "history": "examined_in_archived_full_prior"
+    },
+    {
+      "name": "noise2m_s101",
+      "gain": 1.0,
+      "bias": 0.0,
+      "lag": 0.0,
+      "phase": null,
+      "noise": 2.0,
+      "seed": 101,
+      "history": "seeds_used_in_appendix_c_oracle_only_new_for_shared_prior"
+    },
+    {
+      "name": "noise2m_s102",
+      "gain": 1.0,
+      "bias": 0.0,
+      "lag": 0.0,
+      "phase": null,
+      "noise": 2.0,
+      "seed": 102,
+      "history": "seeds_used_in_appendix_c_oracle_only_new_for_shared_prior"
+    },
+    {
+      "name": "noise2m_s103",
+      "gain": 1.0,
+      "bias": 0.0,
+      "lag": 0.0,
+      "phase": null,
+      "noise": 2.0,
+      "seed": 103,
+      "history": "seeds_used_in_appendix_c_oracle_only_new_for_shared_prior"
+    },
+    {
+      "name": "noise2m_s104",
+      "gain": 1.0,
+      "bias": 0.0,
+      "lag": 0.0,
+      "phase": null,
+      "noise": 2.0,
+      "seed": 104,
+      "history": "seeds_used_in_appendix_c_oracle_only_new_for_shared_prior"
+    },
+    {
+      "name": "noise2m_s105",
+      "gain": 1.0,
+      "bias": 0.0,
+      "lag": 0.0,
+      "phase": null,
+      "noise": 2.0,
+      "seed": 105,
+      "history": "seeds_used_in_appendix_c_oracle_only_new_for_shared_prior"
+    }
+  ],
+  "notes": [
+    "All 8 configurations are frozen before running these targeted checks.",
+    "Includes prop_kp12.0_rate1.0 and base_kp12.0_ki0p01 so both fixed-Kp single-parameter effects and whole-configuration differences can be separated.",
+    "Noise tests use 5 pre-specified paired seeds (101..105) under shared online flow prior (--moment-prior 1).",
+    "Historical usage of each scenario is explicitly recorded in the scenario metadata."
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "created_at": "2026-11-18T13:15:47+08:00",
+  "research_question": "Does increasing the outer-loop integral update rate multiplier gamma in the proposed controller improve tracking accuracy and prior-error tolerance at comparable rudder activity, without modifying other control modules?",
+  "proposed_candidates": [
+    {
+      "id": "prop_kp12.0_rate1.0",
+      "mode": "shared",
+      "kp": 12.0,
+      "ti": 50.0,
+      "td": 2.0,
+      "kff": 3e-06,
+      "rate": 1.0
+    },
+    {
+      "id": "prop_kp12.0_rate5.0",
+      "mode": "shared",
+      "kp": 12.0,
+      "ti": 50.0,
+      "td": 2.0,
+      "kff": 3e-06,
+      "rate": 5.0
+    },
+    {
+      "id": "prop_kp12.0_rate15.0",
+      "mode": "shared",
+      "kp": 12.0,
+      "ti": 50.0,
+      "td": 2.0,
+      "kff": 3e-06,
+      "rate": 15.0
+    },
+    {
+      "id": "prop_kp12.0_rate30.0",
+      "mode": "shared",
+      "kp": 12.0,
+      "ti": 50.0,
+      "td": 2.0,
+      "kff": 3e-06,
+      "rate": 30.0
+    },
+    {
+      "id": "prop_kp15.0_rate1.0",
+      "mode": "shared",
+      "kp": 15.0,
+      "ti": 50.0,
+      "td": 2.0,
+      "kff": 3e-06,
+      "rate": 1.0
+    },
+    {
+      "id": "prop_kp15.0_rate5.0",
+      "mode": "shared",
+      "kp": 15.0,
+      "ti": 50.0,
+      "td": 2.0,
+      "kff": 3e-06,
+      "rate": 5.0
+    },
+    {
+      "id": "prop_kp15.0_rate15.0",
+      "mode": "shared",
+      "kp": 15.0,
+      "ti": 50.0,
+      "td": 2.0,
+      "kff": 3e-06,
+      "rate": 15.0
+    },
+    {
+      "id": "prop_kp15.0_rate30.0",
+      "mode": "shared",
+      "kp": 15.0,
+      "ti": 50.0,
+      "td": 2.0,
+      "kff": 3e-06,
+      "rate": 30.0
+    }
+  ],
+  "baseline_candidates": [
+    {
+      "id": "base_kp12.0_ki0p005",
+      "mode": "baseline",
+      "kp": 12.0,
+      "ti": 90.0,
+      "td": 2.0,
+      "lookahead": 3.0,
+      "ki": 0.005,
+      "cap": 40.0
+    },
+    {
+      "id": "base_kp12.0_ki0p01",
+      "mode": "baseline",
+      "kp": 12.0,
+      "ti": 90.0,
+      "td": 2.0,
+      "lookahead": 3.0,
+      "ki": 0.01,
+      "cap": 40.0
+    },
+    {
+      "id": "base_kp12.0_ki0p02",
+      "mode": "baseline",
+      "kp": 12.0,
+      "ti": 90.0,
+      "td": 2.0,
+      "lookahead": 3.0,
+      "ki": 0.02,
+      "cap": 40.0
+    },
+    {
+      "id": "base_kp12.0_ki0p03",
+      "mode": "baseline",
+      "kp": 12.0,
+      "ti": 90.0,
+      "td": 2.0,
+      "lookahead": 3.0,
+      "ki": 0.03,
+      "cap": 40.0
+    },
+    {
+      "id": "base_kp15.0_ki0p005",
+      "mode": "baseline",
+      "kp": 15.0,
+      "ti": 90.0,
+      "td": 2.0,
+      "lookahead": 3.0,
+      "ki": 0.005,
+      "cap": 40.0
+    },
+    {
+      "id": "base_kp15.0_ki0p01",
+      "mode": "baseline",
+      "kp": 15.0,
+      "ti": 90.0,
+      "td": 2.0,
+      "lookahead": 3.0,
+      "ki": 0.01,
+      "cap": 40.0
+    },
+    {
+      "id": "base_kp15.0_ki0p02",
+      "mode": "baseline",
+      "kp": 15.0,
+      "ti": 90.0,
+      "td": 2.0,
+      "lookahead": 3.0,
+      "ki": 0.02,
+      "cap": 40.0
+    },
+    {
+      "id": "base_kp15.0_ki0p03",
+      "mode": "baseline",
+      "kp": 15.0,
+      "ti": 90.0,
+      "td": 2.0,
+      "lookahead": 3.0,
+      "ki": 0.03,
+      "cap": 40.0
+    }
+  ],
+  "training_scenarios": [
+    {
+      "name": "nominal",
+      "gain": 1.0,
+      "bias": 0.0,
+      "lag": 0.0,
+      "phase": null,
+      "noise": 0.0,
+      "seed": 1
+    },
+    {
+      "name": "gain085",
+      "gain": 0.85,
+      "bias": 0.0,
+      "lag": 0.0,
+      "phase": null,
+      "noise": 0.0,
+      "seed": 1
+    }
+  ],
+  "validation_scenarios": [
+    {
+      "name": "gain075",
+      "gain": 0.75,
+      "bias": 0.0,
+      "lag": 0.0,
+      "phase": null,
+      "noise": 0.0,
+      "seed": 1
+    },
+    {
+      "name": "gain125",
+      "gain": 1.25,
+      "bias": 0.0,
+      "lag": 0.0,
+      "phase": null,
+      "noise": 0.0,
+      "seed": 1
+    },
+    {
+      "name": "dirm10",
+      "gain": 1.0,
+      "bias": -10.0,
+      "lag": 0.0,
+      "phase": null,
+      "noise": 0.0,
+      "seed": 1
+    },
+    {
+      "name": "dir10",
+      "gain": 1.0,
+      "bias": 10.0,
+      "lag": 0.0,
+      "phase": null,
+      "noise": 0.0,
+      "seed": 1
+    },
+    {
+      "name": "lag20",
+      "gain": 1.0,
+      "bias": 0.0,
+      "lag": 20.0,
+      "phase": null,
+      "noise": 0.0,
+      "seed": 1
+    },
+    {
+      "name": "noise2m_s101",
+      "gain": 1.0,
+      "bias": 0.0,
+      "lag": 0.0,
+      "phase": null,
+      "noise": 2.0,
+      "seed": 101
+    }
+  ],
+  "selection_budgets": [
+    {
+      "name": "B1_tv14500",
+      "max_mean_tv_deg": 14500.0
+    },
+    {
+      "name": "B2_tv12500",
+      "max_mean_tv_deg": 12500.0
+    }
+  ],
+  "selection_rule": "Among candidates arriving in all training scenarios with mean training rudder TV <= budget ceiling, select the candidate minimizing worst-case training RMS (tie-break: mean training RMS, mean training rudder TV, candidate_id). Freeze before running validation scenarios."
+}

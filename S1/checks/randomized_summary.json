@@ -1,0 +1,88 @@
+{
+  "groups": [
+    {
+      "kind": "noise",
+      "method": "ilos_crab",
+      "total": 10,
+      "arrived": 10,
+      "q25_rms_m": 2.345784239844547,
+      "median_rms_m": 2.377633464139893,
+      "q75_rms_m": 2.4689616983898492
+    },
+    {
+      "kind": "noise",
+      "method": "proposed",
+      "total": 10,
+      "arrived": 10,
+      "q25_rms_m": 2.193976501339573,
+      "median_rms_m": 2.290711988918364,
+      "q75_rms_m": 2.3598016708791425
+    },
+    {
+      "kind": "derivatives",
+      "method": "ilos_crab",
+      "total": 10,
+      "arrived": 10,
+      "q25_rms_m": 1.4321097292549747,
+      "median_rms_m": 1.501842273306217,
+      "q75_rms_m": 1.7281631453975914
+    },
+    {
+      "kind": "derivatives",
+      "method": "proposed",
+      "total": 10,
+      "arrived": 10,
+      "q25_rms_m": 1.8683572973233498,
+      "median_rms_m": 1.9233429214539721,
+      "q75_rms_m": 2.181970314967314
+    }
+  ],
+  "paired": [
+    {
+      "kind": "noise",
+      "pairs": 10,
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110
+      ],
+      "mean_paired_difference_m": -0.1664182733705452,
+      "median_paired_difference_m": -0.18301064622858076,
+      "bootstrap_ci95_m": [
+        -0.2522752966079744,
+        -0.07756153772566074
+      ]
+    },
+    {
+      "kind": "derivatives",
+      "pairs": 10,
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110
+      ],
+      "mean_paired_difference_m": -0.3693069720780926,
+      "median_paired_difference_m": 0.4812456569554785,
+      "bootstrap_ci95_m": [
+        -2.09078743039511,
+        0.5211042617581648
+      ]
+    }
+  ],
+  "bootstrap_resamples": 10000,
+  "analysis_seed": 20261111
+}

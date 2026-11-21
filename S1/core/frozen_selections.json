@@ -1,0 +1,50 @@
+{
+  "B1_tv14500": {
+    "baseline": {
+      "candidate_id": "base_kp15.0_ki0p02",
+      "mode": "baseline",
+      "feasible": true,
+      "non_arrivals": 0,
+      "worst_train_rms_m": 1.506579812092369,
+      "mean_train_rms_m": 1.4490558232377508,
+      "mean_train_tv_deg": 13389.95,
+      "nominal_rms_m": 1.3915318343831327,
+      "gain085_rms_m": 1.506579812092369
+    },
+    "shared": {
+      "candidate_id": "prop_kp12.0_rate30.0",
+      "mode": "shared",
+      "feasible": true,
+      "non_arrivals": 0,
+      "worst_train_rms_m": 2.131620092817693,
+      "mean_train_rms_m": 1.71809679861244,
+      "mean_train_tv_deg": 12235.0,
+      "nominal_rms_m": 1.3045735044071871,
+      "gain085_rms_m": 2.131620092817693
+    }
+  },
+  "B2_tv12500": {
+    "baseline": {
+      "candidate_id": "base_kp12.0_ki0p02",
+      "mode": "baseline",
+      "feasible": true,
+      "non_arrivals": 0,
+      "worst_train_rms_m": 1.5756515458249816,
+      "mean_train_rms_m": 1.5049016599068263,
+      "mean_train_tv_deg": 11374.55,
+      "nominal_rms_m": 1.434151773988671,
+      "gain085_rms_m": 1.5756515458249816
+    },
+    "shared": {
+      "candidate_id": "prop_kp12.0_rate30.0",
+      "mode": "shared",
+      "feasible": true,
+      "non_arrivals": 0,
+      "worst_train_rms_m": 2.131620092817693,
+      "mean_train_rms_m": 1.71809679861244,
+      "mean_train_tv_deg": 12235.0,
+      "nominal_rms_m": 1.3045735044071871,
+      "gain085_rms_m": 2.131620092817693
+    }
+  }
+}

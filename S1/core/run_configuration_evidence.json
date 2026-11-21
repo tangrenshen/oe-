@@ -1,0 +1,57 @@
+{
+  "prop_kp12.0_rate30.0": {
+    "params": {
+      "kp": 12.0,
+      "ti": 50.0,
+      "td": 2.0,
+      "kff": 3e-06
+    },
+    "mode": "shared",
+    "applied_environment": {
+      "OE_EXP_RATE": "30"
+    },
+    "lookahead_bounds_L": [
+      2,
+      5
+    ]
+  },
+  "prop_kp15.0_rate1.0": {
+    "params": {
+      "kp": 15.0,
+      "ti": 50.0,
+      "td": 2.0,
+      "kff": 3e-06
+    },
+    "mode": "shared",
+    "applied_environment": {},
+    "lookahead_bounds_L": [
+      2,
+      5
+    ]
+  },
+  "base_kp15.0_ki0p02": {
+    "params": {
+      "lookahead": 3.0,
+      "ki": 0.02,
+      "cap": 40.0,
+      "kp": 15.0,
+      "ti": 90.0,
+      "td": 2.0
+    },
+    "mode": "baseline",
+    "applied_environment": {}
+  },
+  "base_kp12.0_ki0p02": {
+    "params": {
+      "lookahead": 3.0,
+      "ki": 0.02,
+      "cap": 40.0,
+      "kp": 12.0,
+      "ti": 90.0,
+      "td": 2.0
+    },
+    "mode": "baseline",
+    "applied_environment": {}
+  },
+  "default_proposed_integral_rate": 1.0
+}

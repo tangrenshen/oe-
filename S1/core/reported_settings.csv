@@ -1,0 +1,7 @@
+controller,kp,ti,td,outer_gain,min_lookahead_L,max_lookahead_L,moment_feedforward
+ilos,22,90,2,0.03,3,3,False
+ilos_crab,22,90,2,0.01,3,3,False
+base_kp15.0_ki0p02,15,90,2,0.02,3,3,False
+base_kp12.0_ki0p02,12,90,2,0.02,3,3,False
+prop_kp12.0_rate30.0,12,50,2,30,2,5,True
+prop_kp15.0_rate1.0,15,50,2,1,2,5,True

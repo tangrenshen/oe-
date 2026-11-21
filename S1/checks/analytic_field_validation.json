@@ -1,0 +1,23 @@
+{
+  "created_at": "2026-11-11T11:22:20+08:00",
+  "cases": 18,
+  "total_queries": 4320,
+  "cpp_vs_independent_numpy_max_error": 1.3909094145544976e-15,
+  "boundary_zero_check": "passed in C++ harness for every field",
+  "fields": {
+    "0": "constant",
+    "1": "40 km smooth variation plus transverse variation",
+    "2": "smooth field plus 4 km oscillation"
+  },
+  "depths": {
+    "0": "flat 20 m",
+    "1": "smooth variable depth; query via actual sounding interpolation"
+  },
+  "limitations": [
+    "Synthetic truth, not validation of real river flow.",
+    "Independent query sites, not withheld virtual observations relabeled as measurements.",
+    "160 m head-tail velocity difference is a gradient diagnostic, not full force accuracy.",
+    "Centerline-only anchors cannot identify arbitrary cross-channel variation.",
+    "Fixed regularization .1, no tuning on query truth."
+  ]
+}

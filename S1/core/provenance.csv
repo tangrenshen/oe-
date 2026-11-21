@@ -1,0 +1,24 @@
+output,source_file,source_sha256,operation
+training_results.csv,training_results.csv,894f4e0ae9313757012240cd14bc7ada497bc559bc7aad6678e408d1bbdc3528,Preserve every run and numeric field. Exclude local file-reference column if present.
+targeted_followup_results.csv,targeted_followup_results.csv,4a806bff86b10f092242cfc30d67e0746ee014146472d869264d9aad87be6c78,Preserve every run and numeric field. Exclude local file-reference column if present.
+dir20_supplement_results.csv,dir20_supplement_results.csv,ac0afe811de1b1966823fc88c6a2743bda3a191b1eef6dd9898b9c5466d4af41,Preserve every run and numeric field. Exclude local file-reference column if present.
+protocol.json,protocol.json,ee59103174bc36d160de4b4f2cf31d3f595764cb227d9b7a66c7133b3a53439d,Byte-for-byte copy.
+followup_protocol.json,followup_protocol.json,a30eecd2321da31262def673113e4c9d4328636c52f722bd84f4ee2237bb124b,Byte-for-byte copy.
+frozen_selections.json,frozen_selections.json,b1dd831cd4be7841a724cb9dba477fb120d31128857ba26daf9a717d24120bc5,Byte-for-byte copy.
+earlier_controller_settings.json,frozen_parameters.json,37f8de820368fd879582b9ce510b02fc43141b161c7b3b07b286703037c75b7a,Byte-for-byte copy.
+earlier_passages.csv,phases.csv,be23eccb0cc7d92b49256b3cfe934c198f377246a570de43cdd31335997e44a7,"Keep conventional ILOS steady and four phases, and earlier ILOS + crab steady. Preserve original precision, run names and field names."
+nominal_B1.csv.gz,Log_Group2_ConvILOS.csv,907bc33331482e59facfece97409a710f97e273456992f8130f70916f7c4db0b,"Selected nominal passage base_kp15.0_ki0p02. Three original logged fields from all frames, lossless gzip, original numeric precision."
+nominal_B2.csv.gz,Log_Group2_ConvILOS.csv,32e924303e390db29e400602ecace9f9443d2415607d717204a5bc08b717e98d,"Selected nominal passage base_kp12.0_ki0p02. Three original logged fields from all frames, lossless gzip, original numeric precision."
+nominal_Proposed.csv.gz,Log_Group4_Proposed.csv,1611090abf4043bf6f7844653df2df7df954c9ad9b154ac358fff6996d48b828,"Selected nominal passage prop_kp12.0_rate30.0. Three original logged fields from all frames, lossless gzip, original numeric precision."
+reported_values.csv,tab05.tex,515d55d8b3d8ffb2097a6f240d94f9e4282fb2b77557982c5a7efb216e980e6c,Extract printed numbers of Table 5 for independent roundoff comparisons.
+reported_values.csv,tab06.tex,7d71951940317f57a23af40c77727a2d7e42e06f05a62e97fa6a4e18dd784444,Extract printed numbers of Table 6 for independent roundoff comparisons.
+reported_values.csv,tab11.tex,94668c9ab956bbdf06cba83e3bf6e33d08eb7f18f5640d6bbc33a8afb292878f,Extract printed numbers of Table 11 for independent roundoff comparisons.
+reported_values.csv,tab14.tex,8d9c35d4c24240992eab11be196ae408a4450cd24ec0c8624bc8447e2115a8aa,Extract printed numbers of Table C2 for independent roundoff comparisons.
+reported_values.csv,tab15.tex,7f0eed188af4fbac5968554b1a7239833a94697814883725aa442633fb3712f8,Extract printed numbers of Table D1 for independent roundoff comparisons.
+reported_values.csv,tab16.tex,15c87ea1648ebd0d03361301be49ad6424bb4d9fd869d8d4e8de6d88ffe9b8ff,Extract printed numbers of Table D2 for independent roundoff comparisons.
+reported_settings.csv,tab04.tex,59d1e89845cd567c5b6ee919af8174def4845b5a8f4105aa10208a95ce6bb17c,Transcribe printed Table 4 gain and switch settings under archive run IDs; convert lookahead to minimum/maximum multiples of L.
+run_configuration_evidence.json,run_metadata.json,8442e1dc82e0864fd61c2800fafe40081bd83097824f4e896e1e1f393c38664f,Extract nominal settings for prop_kp12.0_rate30.0; omit machine-specific metadata.
+run_configuration_evidence.json,run_metadata.json,c07530af7f884cc9c09ddbbc890e003be463e3bcf8f5ca893d489ae1ec440175,Extract nominal settings for prop_kp15.0_rate1.0; omit machine-specific metadata.
+run_configuration_evidence.json,run_metadata.json,897107fc034937ad6b24c1d48f815688613ccabe3e45025e489c0bd28235d2fc,Extract nominal settings for base_kp15.0_ki0p02; omit machine-specific metadata.
+run_configuration_evidence.json,run_metadata.json,e06f1e3825cd2ab1a0bb3571de40d313286e0cdef52872fa310cf4ed00597500,Extract nominal settings for base_kp12.0_ki0p02; omit machine-specific metadata.
+run_configuration_evidence.json,mainwindow.cpp,e7935fe7709d86c9fd5edda549b12884ffdf23ea1791026b220ea82d51e3fb46,Read adaptive lookahead limits in ship lengths (2 and 5) and default proposed integral rate (1).
