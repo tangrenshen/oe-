@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Please cite the authors, dataset title, version and version-specific GitHub URL."
+title: "Supplementary Data S1 for Adaptive ship path following in curved, confined waterways using yaw-moment feedforward from a nonuniform current field"
+type: dataset
+version: "2026-11-21-r2"
+date-released: "2026-11-21"
+url: "https://github.com/tangrenshen/oe-/tree/s1-2026-11-21-r2"
+repository-code: "https://github.com/tangrenshen/oe-"
+authors:
+  - family-names: Li
+    given-names: Yifan
+  - family-names: He
+    given-names: Yixiong
+  - family-names: Zhang
+    given-names: Kun
+  - family-names: Liu
+    given-names: Wenlu
+  - family-names: Chen
+    given-names: Shuzhe

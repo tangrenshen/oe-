@@ -1,7 +1,7 @@
 # Supplementary Data S1
 
 **Adaptive ship path following in curved, confined waterways using yaw-moment feedforward from a nonuniform current field**  
-Version 2026-11-21
+Yifan Li, Yixiong He, Kun Zhang, Wenlu Liu and Shuzhe Chen. Version 2026-11-21-r2.
 
 This archive contains simulation outputs and analytic-field tests for the Yingongzhou case study. To reproduce the comparisons, extract the entire archive and run `python verify.py` from its top-level directory using Python 3.10 or newer. Verification uses the Python standard library and runs offline. It first checks the SHA-256 fingerprints of the distributed files. The results include recalculated metrics, agreement with the printed tables and the five paired ablation comparisons.
 
